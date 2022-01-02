@@ -87,3 +87,4 @@
     * [Comentários de fim de linha](referencia-tecnica/comentarios/comentarios-de-fim-de-linha.md)
     * [Observações](referencia-tecnica/comentarios/observacoes.md)
     * [Qualificadores](referencia-tecnica/comentarios/qualificadores.md)
+* [Exemplos](exemplos.md)
