@@ -1,0 +1,2 @@
+# Advérbios de intensidade
+
