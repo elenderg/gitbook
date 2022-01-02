@@ -1,0 +1,2 @@
+# Tamanho de uma variável
+
