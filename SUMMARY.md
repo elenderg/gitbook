@@ -21,7 +21,6 @@
         * [Conjunções adversativas](manual-da-linguagem/introducao/conjuncoes/conjuncoes-coordenativas/conjuncoes-adversativas.md)
         * [Conjunções alternativas](manual-da-linguagem/introducao/conjuncoes/conjuncoes-coordenativas/conjuncoes-alternativas.md)
         * [Conjunções conclusivas](manual-da-linguagem/introducao/conjuncoes/conjuncoes-coordenativas/conjuncoes-conclusivas.md)
-        * [Conjunções conclusivas](manual-da-linguagem/introducao/conjuncoes/conjuncoes-coordenativas/conjuncoes-conclusivas-1.md)
       * [Conjunções subordinativas](manual-da-linguagem/introducao/conjuncoes/conjuncoes-subordinativas/README.md)
         * [Conjunções comparativas](manual-da-linguagem/introducao/conjuncoes/conjuncoes-subordinativas/conjuncoes-comparativas.md)
         * [Conjunções causais](manual-da-linguagem/introducao/conjuncoes/conjuncoes-subordinativas/conjuncoes-causais.md)
