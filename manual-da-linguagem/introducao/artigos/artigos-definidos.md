@@ -2,8 +2,8 @@
 
 Os Artigos Definidos servem para:
 
-* declarar Variáveis Globais
-* fazer referência à uma variável local declarada anteriormente.
+* declarar [Variáveis Globais](../../../referencia-tecnica/variaveis/variaveis-globais.md)
+* fazer referência à uma [Variável Local](../../../referencia-tecnica/variaveis/variaveis-locais.md) declarada anteriormente.
 
 Os artigos definidos são os seguintes:
 
