@@ -62,7 +62,7 @@
       * [Vire](manual-da-linguagem/introducao/verbos/vire.md)
 * [Referência Técnica](referencia-tecnica/README.md)
   * [Variáveis](referencia-tecnica/variaveis/README.md)
-    * [Variáveis locais](referencia-tecnica/variaveis/variaveis-locais.md)
+    * [Variáveis Locais](referencia-tecnica/variaveis/variaveis-locais.md)
     * [Variáveis Globais](referencia-tecnica/variaveis/variaveis-globais.md)
     * [Parâmetros e Argumentos](referencia-tecnica/variaveis/parametros-e-argumentos.md)
     * [Bytes](referencia-tecnica/variaveis/bytes/README.md)
