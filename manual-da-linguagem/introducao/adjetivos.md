@@ -1,6 +1,6 @@
 # Adjetivos
 
-Adjetivos são uma classe de palavras que atribui características aos [Substantivos](substantivos/), ou seja, ele indica suas qualidades e estados.
+Adjetivos são uma classe de palavras que atribui características aos [Substantivos](substantivos/), ou seja, ele indica suas qualidades e estados.&#x20;
 
 Dessa forma podemos criar substantivos similares, mas diferentes.
 
@@ -20,7 +20,8 @@ Um carro é um conjunto com
     Uma velocidade máxima,
     Um consumo médio,
     Uma quantidade de assentos,
-    Um motorista (associado). \\ 
+    Um motor,    
+    Um motorista (associado). \\ O motorista não está atrelado ao carro 
 ```
 
 &#x20;&#x20;
