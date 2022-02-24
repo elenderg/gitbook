@@ -1,3 +1,3 @@
 # Conjunções coordenativas
 
-Conjunções coordenativas são palavras que ligam orações de sentido completo e independente ou termos da oração que têm a mesma função gramatical
+Conjunções coordenativas são palavras que servem para ligar duas ou mais frases ou termos de uma frase.
