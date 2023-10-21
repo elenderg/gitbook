@@ -9,8 +9,11 @@ Exemplos:
 ```
 Um carro branco é um carro. 
 Um carro vermelho é um carro.
+```
+
 \ O tipo da variável é o mesmo, mas são variáveis diferentes.
 
+```
 Um carro é um conjunto com
     Uma cor,
     Umas rodas,
@@ -21,7 +24,8 @@ Um carro é um conjunto com
     Um consumo médio,
     Uma quantidade de assentos,
     Um motor,    
-    Um motorista (associado). \\ O motorista não está atrelado ao carro 
+    Um motorista.
 ```
 
-&#x20;&#x20;
+
+
