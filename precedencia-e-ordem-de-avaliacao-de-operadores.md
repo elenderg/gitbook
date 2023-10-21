@@ -4,6 +4,6 @@ Todos os operadores  têm precedência igual; ou seja, eles são avaliados na or
 
 Exemplo:
 
-`Atribua 2`` `<mark style="color:blue;">`mais`</mark>` ``3`` `<mark style="color:blue;">`vezes`</mark>` ``4`` `<mark style="color:blue;">`dividido por`</mark>` ``5 a um número.`
+`Atribua 2`` `<mark style="color:blue;">`mais`</mark>` ``3`` `<mark style="color:blue;">`vezes`</mark>` ``4`` `<mark style="color:blue;">`dividido por`</mark>` ``5 para um número.`
 
 (O resultado calculado é 4, ao invés de 4,4).
