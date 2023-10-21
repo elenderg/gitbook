@@ -1,2 +1,0 @@
-# Pronomes adjacentes
-

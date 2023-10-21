@@ -1,2 +1,0 @@
-# Singular e Plural
-

@@ -1,2 +1,0 @@
-# Tempos e modos verbais
-

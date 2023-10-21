@@ -1,2 +1,0 @@
-# Endereços de memória
-
