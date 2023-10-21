@@ -1,6 +1,6 @@
 # Estruturas
 
-Uma estrutura é um tipo de dado composto, com vários membros.
+Uma [estrutura](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) é um tipo de dado composto, com vários membros.
 
 Exemplos:&#x20;
 
