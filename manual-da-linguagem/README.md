@@ -39,3 +39,5 @@ Inferência de tipos: Baseada no nome da variável.
 
 [Sensível a maiúsculas e minúsculas](https://pt.wikipedia.org/wiki/Case-sensitive): Não.
 
+[Passagem de parâmetros:](https://pt.wikipedia.org/wiki/Par%C3%A2metro\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\)) [por Referência](https://en.wikipedia.org/wiki/Evaluation\_strategy#Call\_by\_reference)
+
