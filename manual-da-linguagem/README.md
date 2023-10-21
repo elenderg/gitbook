@@ -37,5 +37,5 @@ Inferência de tipos: Baseada no nome da variável.
 * número hexadecimal;
 * sinalizador;
 
-
+[Sensível a maiúsculas e minúsculas](https://pt.wikipedia.org/wiki/Case-sensitive): Não.
 
