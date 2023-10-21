@@ -26,7 +26,7 @@
     * [Numerais](manual-da-linguagem/introducao/numerais/README.md)
       * [Numerais cardinais](manual-da-linguagem/introducao/numerais/numerais-cardinais.md)
       * [Numerais ordinais](manual-da-linguagem/introducao/numerais/numerais-ordinais.md)
-      * [Page 8](manual-da-linguagem/introducao/numerais/page-8.md)
+      * [Números Fracionários](manual-da-linguagem/introducao/numerais/page-8.md)
       * [Valores](manual-da-linguagem/introducao/numerais/valores/README.md)
         * [Nulo](manual-da-linguagem/introducao/numerais/valores/nulo.md)
         * [Vazio](manual-da-linguagem/introducao/numerais/valores/vazio.md)
