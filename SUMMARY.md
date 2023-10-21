@@ -7,6 +7,7 @@
 * [Estruturas](estruturas.md)
 * [Laços e Desvios condicionais](desvios-condicionais.md)
 * [Números](numeros.md)
+* [Precedência e Ordem de avaliação de operadores](precedencia-e-ordem-de-avaliacao-de-operadores.md)
 * [Strings](strings.md)
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)
 * [Trabalhando com Instruções Hexadecimais](trabalhando-com-instrucoes-hexadecimais.md)
