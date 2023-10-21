@@ -7,5 +7,6 @@
 * [Laços e Desvios condicionais](desvios-condicionais.md)
 * [Números](numeros.md)
 * [Strings](strings.md)
+* [Inline Assembler](inline-assembler.md)
 * [Exemplos](exemplos/README.md)
   * [Exemplos aqui](exemplos/exemplos-aqui.md)
