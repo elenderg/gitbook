@@ -55,6 +55,12 @@ Rotina para que se calcule uma soma usando um número:
 ```
 {% endcode %}
 
+<div align="left">
+
+<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 **Dados da rotina**
 
 **Nome:** Calcule
