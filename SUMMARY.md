@@ -15,5 +15,5 @@
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)
 * [Trabalhando com Instruções Hexadecimais](trabalhando-com-instrucoes-hexadecimais.md)
 * [Cores](cores.md)
-* [Exemplos](exemplos/README.md)
-  * [Exemplos aqui](exemplos/exemplos-aqui.md)
+* [Algoritmos de Exemplo](exemplos/README.md)
+  * [Olá Mundo](exemplos/exemplos-aqui.md)
