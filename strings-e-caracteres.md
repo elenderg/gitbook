@@ -137,6 +137,8 @@ As substrings são utilizadas principalmente de forma conjunta com "percorredore
 
 ## Trabalhando com Percorredores
 
+Um "percorredor" é uma estrutura usada para analisar strings (fazer o parsing) . Para entendê-lo, você deve estar familiarozado com o conceito "[strings](strings-e-caracteres.md#strings)" e "[subtextos](strings-e-caracteres.md#subtextos)".
+
 Parsing é o ato de percorrer um bloco de texto, um pedaço de cada vez, onde um pedaço pode ser tão pequeno quanto uma letra ou tão grande quanto o bloco inteiro.&#x20;
 
 Vamos usar a string abaixo como nosso bloco de texto de exemplo:&#x20;
