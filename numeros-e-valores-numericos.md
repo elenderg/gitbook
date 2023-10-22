@@ -1,4 +1,4 @@
-# Números
+# Números e valores numéricos
 
 A linguagem trabalha com os seguintes valores numéricos:
 
@@ -8,6 +8,16 @@ A linguagem trabalha com os seguintes valores numéricos:
 * Números hexadecimais;
 
 ## Números inteiros
+
+Um "número" consiste em dígitos, com um sinal opcional, mas sem espaços ou outros símbolos. Exemplos:&#x20;
+
+`0`
+
+`123`
+
+`-2147483648`
+
+`+2147483647`
 
 A implementação de um número de 32 bits é a seguinte:
 
@@ -33,6 +43,18 @@ A implementação de um número de 32 bits é a seguinte:
 
 ## Números fracionários
 
+Uma fração é um número seguido de uma barra e um número sem sinal.&#x20;
+
+Exemplos:&#x20;
+
+`335/113`
+
+`25946/9545`
+
+`-19601/13860`
+
+A implementação de uma fração é a seguinte:
+
 `Uma fração é uma estrutura com`
 
 &#x20; `Um numerador e`
@@ -41,6 +63,16 @@ A implementação de um número de 32 bits é a seguinte:
 
 ## Números mistos
 
+Um número misto é composto de um número, um traço e uma fração sem sinal. Exemplos:
+
+`1-1/2`
+
+`-2-2/3`
+
+`3-3/4`
+
+Abaixo temos a implementação de números mistos:
+
 `Um numeral misto é uma estrutura com`&#x20;
 
 &#x20; `Um número inteiro e`&#x20;
@@ -48,4 +80,14 @@ A implementação de um número de 32 bits é a seguinte:
 &#x20; `Uma proporção e`&#x20;
 
 &#x20; `Uma fração`` `_`sob`_` ``a proporção.`
+
+## Valores Hexadecimais
+
+Os valroes hexadecimais são prefixados com o caractere <mark style="color:blue;">`$`</mark>.
+
+Exemplos:
+
+<mark style="color:blue;">`$DEADBEEF`</mark>
+
+<mark style="color:blue;">`$0D0A`</mark>
 
