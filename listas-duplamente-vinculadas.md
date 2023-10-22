@@ -12,7 +12,7 @@ Você pode declarar listas usando a seguinte sintaxe:
 
 
 
-O compilador irá, internamente, converter as declarações acima, para que funcionem do seguinte modo:
+O compilador irá, internamente, converter as declarações acima, nas estruturas abaixo:
 
 `Um verso é um`` `<mark style="color:blue;">`ponteiro para`</mark>` ``uma estrutura de versos.`
 
