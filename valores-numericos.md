@@ -2,10 +2,12 @@
 
 A linguagem trabalha com os seguintes valores numéricos:
 
-* Números inteiros;
-* Números fracionários;
-* Números mistos;
-* Números hexadecimais;
+* [Números inteiros;](valores-numericos.md#numeros-inteiros)
+* [Números fracionários;](valores-numericos.md#numeros-fracionarios)
+* [Números mistos;](valores-numericos.md#numeros-mistos)
+* [Valores hexadecimais;](valores-numericos.md#valores-hexadecimais)
+* [Ponteiros;](valores-numericos.md#ponteiros)
+* [Valores booleanos.](valores-numericos.md#valores-booleanos)
 
 ## Números inteiros
 

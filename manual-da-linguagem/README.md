@@ -31,13 +31,13 @@ layout:
 [Tipos comuns](https://pt.wikipedia.org/wiki/Tipo\_de\_dado):&#x20;
 
 * caractere;
-* [string](../strings.md);
+* [string](../strings-e-caracteres.md);
 * [lista](../listas-duplamente-vinculadas.md);
 * [ponteiro](../valores-numericos.md#ponteiros);
 * [número](../valores-numericos.md#numeros-inteiros);
 * [fração](../valores-numericos.md#numeros-fracionarios);
 * [número hexadecimal](../valores-numericos.md#valores-hexadecimais);
-* sinalizador;
+* [sinalizador](../valores-numericos.md#valores-booleanos);
 
 [Sensível a maiúsculas e minúsculas](https://pt.wikipedia.org/wiki/Case-sensitive): Não.
 
