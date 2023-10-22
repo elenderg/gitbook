@@ -24,11 +24,7 @@ b)
 
 &#x20; `Um quarto byte.`
 
-c)
-
-
-
-c)
+O protótipo de uma estrutura  ocupa zero bits na memória, mas você pode definir estruturas de qualquer comprimento adicionando "campos" ou "membros" ao protótipo da estrutura. Esses campos podem ser de qualquer tipo.
 
 
 
