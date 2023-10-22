@@ -4,6 +4,8 @@ Strings são delimitadas com aspas duplas.
 
 Exemplo:
 
+
+
 `O servidor SMTP padrão é uma string igual a`<mark style="color:blue;">`"localhost"`</mark>`.`
 
 `Atribua`<mark style="color:blue;">`"José"`</mark>`ao nome desta pessoa.`
@@ -12,7 +14,11 @@ Exemplo:
 
 `Atribua`` `<mark style="color:blue;">`"Erro. A palavra chave "Itere" não foi localizada."`</mark>` ``à mensagem de erro.`
 
+
+
 No código abaixo temos a implementação do tipo string:
+
+
 
 `Uma string é uma`<mark style="color:blue;">`estrutura`</mark>`com`&#x20;
 
@@ -23,6 +29,8 @@ No código abaixo temos a implementação do tipo string:
 
 
 Sendo que
+
+
 
 `Um caractere inicial é um ponteiro`<mark style="color:blue;">`[que aponta]`</mark>`para um byte.`&#x20;
 
@@ -35,9 +43,9 @@ Perceba que o compilador armazena "strings" em duas partes:&#x20;
 1. Uma <mark style="color:blue;">`estrutura`</mark> com um par de _ponteiros de bytes_ denominados<mark style="color:blue;">`caractere inicial`</mark> e <mark style="color:blue;">`caractere final`</mark>, e
 2. Um array dinâmico que contém os bytes reais da string, de forma similar à imagem abaixo:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória.</p></figcaption></figure>
 
-Os números no diagrama acima, caso você não tenha adivinhado, são endereços fictícios.
+Observação: os números no diagrama acima, são endereços fictícios.
 
 Uma string é considerada `em branc`o se o caractere inicial for inexistente (ou seja, nenhuma memória foi alocada ainda) ou se o endereço do `caractere final` for menor do que o endereço do `caractere inicial` (o que permite ao compilador realizar pré-alocação de memória).
 
@@ -69,9 +77,17 @@ Exemplos:
 
 
 
-Você também pode alterar uma string para deixar o texto em LETRAS MAIÚSCULAS ou em  letras minúsculas.
+Você também pode alterar uma string para deixar o texto em **LETRAS MAIÚSCULAS** ou em  **letras minúsculas**. (Ou alterar apenas a primeira letra para letras maiúsculas).
 
 E você pode, é claro, obter o comprimento de uma string, em bytes.&#x20;
+
+Exemplo:
+
+`Atribua "João" para uma string.`
+
+`Atribua o comprimento desta string para um número.`
+
+
 
 Além disso, você pode concatenar strings com strings — e outros tipos de dados — usando o operador <mark style="color:blue;">`junto com`</mark> ou <mark style="color:blue;">`seguido de`</mark>.
 
