@@ -14,13 +14,13 @@ A Biblioteca padrão contém definições de tipos, variáveis globais e rotinas
   * Manipulação de Imagens
   * Protocolos de Rede e internet
   * Terminal
-* Criação de Gráficos de Tartaruga (Turtle Graphics)
+* Criação de [Gráficos de Tartaruga](https://pt.wikipedia.org/wiki/Gr%C3%A1ficos\_tartaruga) (Turtle Graphics)
 * Criação de arquivos PDF
 * Envio de E-mail
 * Manipulação de Bits (conjunções e disjunções Lógicas)
 * Manipulação de Strings
 * Manipulação de números e ponteiros
-* Trigonometria Racional
+* T[rigonometria Racional](https://pt.wikipedia.org/wiki/Trigonometria\_racional)
 
 
 
