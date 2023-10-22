@@ -14,5 +14,6 @@
 * [Strings e caracteres](strings-e-caracteres.md)
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)
 * [Trabalhando com Instruções Hexadecimais](trabalhando-com-instrucoes-hexadecimais.md)
+* [Cores](cores.md)
 * [Exemplos](exemplos/README.md)
   * [Exemplos aqui](exemplos/exemplos-aqui.md)

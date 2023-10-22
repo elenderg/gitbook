@@ -63,7 +63,7 @@ Perceba que o compilador armazena "strings" em duas partes:&#x20;
 1. Uma <mark style="color:blue;">`estrutura`</mark> com um par de _ponteiros de bytes_ denominados<mark style="color:blue;">`caractere inicial`</mark> e <mark style="color:blue;">`caractere final`</mark>, e
 2. Um array dinâmico que contém os bytes reais da string, de forma similar à imagem abaixo:
 
-<figure><img src=".gitbook/assets/image.png" alt="Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória."><figcaption><p>Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt="Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória."><figcaption><p>Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória.</p></figcaption></figure>
 
 Observação: os números no diagrama acima, são endereços fictícios.
 
