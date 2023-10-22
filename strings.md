@@ -53,7 +53,7 @@ As strings são alocadas dinamicamente e podem ter qualquer comprimento - mas a 
 
 ## Manipulando strings
 
-Existem diversas rotinas de manipulação de strings.&#x20;
+Na Biblioteca padrão existem diversas rotinas para manipulação de strings.&#x20;
 
 Exemplos:
 

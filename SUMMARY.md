@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Bem-vindo](README.md)
+* [Biblioteca Padrão](biblioteca-padrao.md)
 * [Características da linguagem](manual-da-linguagem/README.md)
 * [Comentários](comentarios.md)
 * [Declaração e inicialização de variáveis](declaracao-e-inicializacao-de-variaveis.md)

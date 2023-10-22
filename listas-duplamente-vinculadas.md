@@ -32,7 +32,7 @@ O compilador irá, internamente, converter as declarações acima, nas estrutura
 
 
 
-O compilador possui diversas rotinas para trabalhar com lista.&#x20;
+Na Biblioteca padrão existem diversas rotinas para trabalhar com listas.&#x20;
 
 Exemplos:
 
@@ -75,3 +75,10 @@ Exemplo:  `Remova o verso desde os versos.`
 
 
 `REVERTA umas listas.`
+
+A Biblioteca padrão também contém rotinas para "Atribuir a quantidade de elementos de uma lista para uma contagem."
+
+
+
+_<mark style="color:red;">As listas são alocadas dinamincamente então é necessário efetuar a alocação e desalocação de memória das listas manualmente, de forma explícita.</mark>_
+
