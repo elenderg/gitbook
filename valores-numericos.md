@@ -93,3 +93,16 @@ Exemplos:
 
 ## Ponteiros
 
+Um ponteiro é uma estrutura com 4 bytes, funcionando de forma similar a um número, no sentido que é possível&#x20;
+
+
+
+## Valores booleanos
+
+Existem 2 valroes booleanos:
+
+<mark style="color:blue;">`sim`</mark> (valor 1)
+
+e&#x20;
+
+<mark style="color:blue;">`não`</mark> (valor 0)

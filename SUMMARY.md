@@ -14,6 +14,5 @@
 * [Strings](strings.md)
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)
 * [Trabalhando com Instruções Hexadecimais](trabalhando-com-instrucoes-hexadecimais.md)
-* [Valores booleanos](valores-booleanos.md)
 * [Exemplos](exemplos/README.md)
   * [Exemplos aqui](exemplos/exemplos-aqui.md)
