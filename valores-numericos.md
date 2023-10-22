@@ -1,4 +1,4 @@
-# Números e valores numéricos
+# Valores numéricos
 
 A linguagem trabalha com os seguintes valores numéricos:
 
@@ -90,4 +90,6 @@ Exemplos:
 <mark style="color:blue;">`$DEADBEEF`</mark>
 
 <mark style="color:blue;">`$0D0A`</mark>
+
+## Ponteiros
 

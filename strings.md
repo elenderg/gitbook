@@ -97,5 +97,22 @@ Exemplo:
 
 `Escreva "Erro #"`` `<mark style="color:blue;">`junto com`</mark>` ``o número do erro`` `<mark style="color:blue;">`seguido de`</mark>` ``"." no console.`
 
+## Substrings
 
+Uma "substring" faz parte de uma string. As substrings são implementadas como uma estrutura igual a uma string — um par de ponteiros de bytes chamados caractere inicial e caractere final — o que as torna compatíveis.
 
+O comando:
+
+`Lance uma substring em uma string.`&#x20;
+
+Faz com que o `caractere inicial` e o `caractere final` da substring para englobem toda a string.&#x20;
+
+Dessa forma você pode percorrer através dos caracteres da string, indo para frente ou para trás. Para iso basta incrementar o valor do endereço do caractere inicial ou reduzir o valor do endereço do caractere final.
+
+Você também pode usar o comando:&#x20;
+
+POSICIONE uma substring em uma string.&#x20;
+
+O que configura o caractere inicial, mas não o final, da substring, deixando-a inicialmente em branco, mas pronto para manipulação. Ao incrementar o valro do caractere final, você pode ir criando a substring um byte de cada vez.
+
+As substrings são utilizadas principalmente de forma conjunta com "percorredores".

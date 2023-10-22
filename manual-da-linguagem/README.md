@@ -29,12 +29,12 @@ Inferência de tipos: Baseada no nome da variável.
 [Tipos comuns](https://pt.wikipedia.org/wiki/Tipo\_de\_dado):&#x20;
 
 * caractere;
-* string;
+* [string](../strings.md);
 * lista (lista duplamente encadeada);
 * ponteiro;
-* número (inteiro de 32 bits);
-* fração;
-* número hexadecimal;
+* [número](../valores-numericos.md#numeros-inteiros);
+* [fração](../valores-numericos.md#numeros-fracionarios);
+* [número hexadecimal](../valores-numericos.md#valores-hexadecimais);
 * sinalizador;
 
 [Sensível a maiúsculas e minúsculas](https://pt.wikipedia.org/wiki/Case-sensitive): Não.
