@@ -14,13 +14,19 @@ Abaixo temos a implementação do tipo caractere:
 
 `Um caractere é um byte.` <mark style="color:blue;">(1 byte = 8 bits)</mark>
 
+Um byte são 8 bits sequenciais de dados binários. São  números sem sinal, com valores variando de 0 a 255.
+
+## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\))
+
+As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades do Windows/86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
+
+
+
 ## Strings
 
 Strings são delimitadas com aspas duplas.
 
-Exemplo:
-
-
+_Exemplo:_
 
 `O servidor SMTP padrão é uma string igual a`<mark style="color:blue;">`"localhost"`</mark>`.`
 
@@ -28,13 +34,17 @@ Exemplo:
 
 `Se o nome desta pessoa for`<mark style="color:blue;">`"João"`</mark>`, retorne.`
 
-`Atribua`` `<mark style="color:blue;">`"Erro. A palavra chave "Itere" não foi localizada."`</mark>` ``à mensagem de erro.`
+
+
+Utilizamos aspas duplas como [caractere de escape](https://pt.wikipedia.org/wiki/Caractere\_de\_escape).
+
+_Exemplo:_
+
+`Atribua`` `<mark style="color:blue;">`"Erro. A palavra chave ""`</mark><mark style="color:green;">`Itere`</mark><mark style="color:blue;">`"" não foi localizada."`</mark>` ``à mensagem de erro.`
 
 
 
 No código abaixo temos a implementação do tipo string:
-
-
 
 `Uma string é uma`<mark style="color:blue;">`estrutura`</mark>`com`&#x20;
 
@@ -44,9 +54,7 @@ No código abaixo temos a implementação do tipo string:
 
 
 
-Sendo que
-
-
+_Sendo que_
 
 `Um caractere inicial é um ponteiro`<mark style="color:blue;">`[que aponta]`</mark>`para um byte.`&#x20;
 
@@ -59,11 +67,11 @@ Perceba que o compilador armazena "strings" em duas partes:&#x20;
 1. Uma <mark style="color:blue;">`estrutura`</mark> com um par de _ponteiros de bytes_ denominados<mark style="color:blue;">`caractere inicial`</mark> e <mark style="color:blue;">`caractere final`</mark>, e
 2. Um array dinâmico que contém os bytes reais da string, de forma similar à imagem abaixo:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt="Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória."><figcaption><p>Figura 1 - Representação de um array com os dados da string, contendo o caractere o endereço na memória.</p></figcaption></figure>
 
 Observação: os números no diagrama acima, são endereços fictícios.
 
-Uma string é considerada `em branc`o se o caractere inicial for inexistente (ou seja, nenhuma memória foi alocada ainda) ou se o endereço do `caractere final` for menor do que o endereço do `caractere inicial` (o que permite ao compilador realizar pré-alocação de memória).
+Uma string é considerada <mark style="color:blue;">`em branco`</mark> se o caractere inicial for inexistente (ou seja, nenhuma memória foi alocada ainda) ou se o endereço do <mark style="color:blue;">`caractere final`</mark> for menor do que o endereço do <mark style="color:blue;">`caractere inicial`</mark> (o que permite ao compilador realizar pré-alocação de memória).
 
 As strings são alocadas dinamicamente e podem ter qualquer comprimento - mas a memória de strings é gerenciada inteiramente (e de forma muito eficiente) pelo compilador, quase como se fossem alocadas estaticamente. Em outras palavras, você não precisa se se preocupar com elas, pois o compilador gerencia a alocação e desalocação de forma automática.&#x20;
 

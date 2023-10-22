@@ -9,6 +9,10 @@ A linguagem trabalha com os seguintes valores numéricos:
 * [Ponteiros;](valores-numericos.md#ponteiros)
 * [Valores booleanos.](valores-numericos.md#valores-booleanos)
 
+## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\))
+
+As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades do Windows/86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
+
 ## Números inteiros
 
 Um "número" consiste em dígitos, com um sinal opcional, mas sem espaços ou outros símbolos. Exemplos:&#x20;
@@ -37,7 +41,9 @@ A implementação de um número de 32 bits é a seguinte:
 
 &#x20; `Uma word de ordem superior sob o terceiro byte.`
 
-&#x20;<mark style="color:blue;">`\ Devido à extremidade (ordenação) dos processadores x86`</mark>
+Os números são armazenados de trás para frente devido à extremidade (ordenação) dos processadores x86.
+
+
 
 `O menor número é -2147483648.`` `<mark style="color:blue;">`\ número de 4 bytes/32 bits`</mark>
 
@@ -97,7 +103,7 @@ Exemplos:
 
 Um ponteiro é uma estrutura com 4 bytes, funcionando de forma similar a um número, no sentido que é possível&#x20;
 
-
+Os endereços de memória são armazenados em ponteiros de 32 bits, de trás para frente. Eles têm o mesmo intervalo dos números, mas todos os negativos pertencem ao Windows. _O endereço 0 é inválido e é denominado <mark style="color:blue;">nulo</mark> ou <mark style="color:blue;">inexistente</mark>_. **Você pode anular um ponteiro para torná-lo nulo.**
 
 ## Valores booleanos
 
