@@ -198,3 +198,10 @@ Se reperirmos o comando, os membros do percorredor ficarão assim:
 
 Perceba que o "**The"** foi "removido" do segmento inicial.
 
+Importante:
+
+Subtextos contém ponteiros para os caracteres então precisamos usar a seguinte sintaxe para obter o valor do dado em si:
+
+`O`` `_`conteúdo`_` ``deste`` `_`caractere inicial`_` ``deste`` `_`segmento inicial`_` ``deste`` `_`percorredor`_`.`
+
+É um tanto quanto prolixo, mas não há outra forma.
