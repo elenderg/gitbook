@@ -200,6 +200,22 @@ Se reperirmos o comando, os membros do percorredor ficarão assim:
 
 Perceba que o "**The"** foi "removido" do segmento inicial.
 
+Outra rotina útil que serve para percorrer uma string caractere a caractere é:
+
+`Avance o percorredor.`
+
+Digamos que o nosso percorredor esteja assim:
+
+* cópia da string original = "**The quick brown fox jumps over the lazy dog"**
+* segmento inicial = ""
+* segmento final = "**The quick brown fox jumps over the lazy dog"**
+
+Ao usar a rotina "avance um percorredor", nosso percorredor ficará assim:
+
+* cópia da string original = "**The quick brown fox jumps over the lazy dog"**
+* segmento inicial = **"T"**
+* segmento final = "**he quick brown fox jumps over the lazy dog"**
+
 Importante:
 
 Subtextos contém ponteiros para os caracteres então precisamos usar a seguinte sintaxe para obter o valor do dado em si:
