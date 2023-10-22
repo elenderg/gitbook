@@ -6,25 +6,23 @@ Exemplos:&#x20;
 
 a)
 
-`Uma string é uma`<mark style="color:blue;">`estrutura`</mark>`com`&#x20;
-
-&#x20; `Um caractere inicial e`&#x20;
-
-&#x20; `Um caractere final.`
+```
+Uma string é uma estrutura com 
+  Um caractere inicial e 
+  Um caractere final.
+```
 
 b)
 
-`Um número é uma`<mark style="color:blue;">`estrutura`</mark>`com`&#x20;
+```
+Um número é uma estrutura com 
+  Um primeiro byte,
+  Um segundo byte,
+  Um terceiro byte,
+  Um quarto byte.
+```
 
-&#x20; `Um primeiro byte,`
-
-&#x20; `Um segundo byte,`
-
-&#x20; `Um terceiro byte,`
-
-&#x20; `Um quarto byte.`
-
-O protótipo de uma estrutura  ocupa zero bits na memória, mas você pode definir estruturas de qualquer comprimento adicionando "campos" ou "membros" ao protótipo da estrutura. Esses campos podem ser de qualquer tipo.
+O protótipo de uma estrutura  ocupa 0 bits na memória, mas você pode definir estruturas de qualquer comprimento adicionando "campos" ou "membros" ao protótipo da estrutura. Esses campos podem ser de qualquer tipo.
 
 
 
