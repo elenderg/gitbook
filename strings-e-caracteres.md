@@ -42,19 +42,17 @@ _Exemplo:_
 
 No código abaixo temos a implementação do tipo string:
 
-`Uma string é uma`<mark style="color:blue;">`estrutura`</mark>`com`&#x20;
-
-&#x20; `Um caractere inicial e`&#x20;
-
-&#x20; `Um caractere final.`
-
-
+> Uma string é uma <mark style="color:blue;">estrutura</mark> com&#x20;
+>
+> &#x20; Um caractere inicial e&#x20;
+>
+> &#x20; Um caractere final.
 
 _Sendo que_
 
-`Um caractere inicial é um ponteiro`<mark style="color:blue;">`[que aponta]`</mark>`para um byte.`&#x20;
-
-`Um caractere final é um ponteiro`<mark style="color:blue;">`[que aponta]`</mark>`para um byte.`
+> Um caractere inicial é um ponteiro <mark style="color:blue;">\[que aponta]</mark> para um byte.&#x20;
+>
+> Um caractere final é um ponteiro <mark style="color:blue;">\[que aponta]</mark> para um byte.
 
 
 
@@ -154,19 +152,19 @@ As ferramentas que usaremos serão&#x20;
 
 **Um percorredor é definido da seguinte forma:**
 
-`Um percorredor é uma estrutura com`&#x20;
-
-&#x20; `Uma cópia da string original,`
-
-&#x20; `Um segmento final,`
-
-&#x20; `Um segmento inicial.`
-
-`Uma cópia da string original é um subtexto.`&#x20;
-
-`Um segmento inicial é um subtexto.`&#x20;
-
-`Um segmento final é um subtexto.`
+> Um percorredor é uma estrutura com&#x20;
+>
+> &#x20; Uma cópia da string original,
+>
+> &#x20; Um segmento final,&#x20;
+>
+>
+>
+> Uma cópia da string original é um subtexto.&#x20;
+>
+> Um segmento inicial é um subtexto.&#x20;
+>
+> Um segmento final é um subtexto.
 
 
 
@@ -175,4 +173,28 @@ Quando você "lançar" um subtexto na string acima, o compilador irá definir o 
 Ao usar o comando:
 
 `"Lance um percorredor sobre o subtexto"`
+
+Os membros do percorredor ficarão assim:
+
+* cópia da string original = "**The quick brown fox jumps over the lazy dog"**
+* segmento inicial = ""
+* segmento final = "**The quick brown fox jumps over the lazy dog"**
+
+A partir daí podemos invocar a rotina
+
+`Mova o percorredor (strings com aspas).`
+
+Neste momento, os membros do percorredor ficarão assim:
+
+* cópia da string original = "**The quick brown fox jumps over the lazy dog"**
+* segmento inicial = "**The**"
+* segmento final = "**quick brown fox jumps over the lazy dog"**
+
+Se reperirmos o comando, os membros do percorredor ficarão assim:
+
+* cópia da string original = "**The quick brown fox jumps over the lazy dog"**
+* segmento inicial = "**quick**"
+* segmento final = "**brown fox jumps over the lazy dog"**
+
+Perceba que o "**The"** foi "removido" do segmento inicial.
 
