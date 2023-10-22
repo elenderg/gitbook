@@ -14,6 +14,8 @@ layout:
 
 # Características da linguagem
 
+Estratégia de avaliação: Passagem por referência.
+
 ## [Sistema de tipos](https://pt.wikipedia.org/wiki/Sistema\_de\_tipos)
 
 Tipagem: Estática.

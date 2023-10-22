@@ -10,6 +10,7 @@
 * [Listas duplamente vinculadas](listas-duplamente-vinculadas.md)
 * [Valores numéricos](valores-numericos.md)
 * [Precedência e Ordem de avaliação de operadores](precedencia-e-ordem-de-avaliacao-de-operadores.md)
+* [Rotinas, Parâmetros e Funções](rotinas-parametros-e-funcoes.md)
 * [Strings](strings.md)
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)
 * [Trabalhando com Instruções Hexadecimais](trabalhando-com-instrucoes-hexadecimais.md)
