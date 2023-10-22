@@ -65,5 +65,16 @@ Rotina para que se calcule uma soma usando um número:
 
 **Número de linhas: 12**
 
+## Funções de retorno booleano
 
+Para criar uma função booleana a sintaxe utilize a seguinte sintaxe:
 
+> **Rotina para que se determine se** um número _é_ negativo:&#x20;
+>
+> &#x20; Se o número for menor do que 0, <mark style="color:green;">diga sim.</mark>&#x20;
+>
+> &#x20; <mark style="color:blue;">\ Caso contrário</mark>
+>
+> &#x20; <mark style="color:red;">Diga não.</mark>
+
+<mark style="color:green;">"Diga sim"</mark> equivale a um <mark style="color:green;">"return true"</mark> e <mark style="color:red;">"Diga não"</mark> é o equivalente de <mark style="color:red;">"return false"</mark>.
