@@ -11,7 +11,7 @@ A linguagem trabalha com os seguintes valores numéricos:
 
 ## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\))
 
-As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades do Windows/86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
+As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
 
 ## Números inteiros
 
@@ -109,8 +109,6 @@ Os endereços de memória são armazenados em ponteiros de 32 bits, de trás par
 
 Existem 2 valroes booleanos:
 
-<mark style="color:blue;">`sim`</mark> (valor 1)
+<mark style="color:blue;">`sim`</mark> (valor 1)  e  <mark style="color:blue;">`não`</mark> (valor 0).
 
-e&#x20;
-
-<mark style="color:blue;">`não`</mark> (valor 0)
+Eles têm 32 bits, mas apenas o bit mais à direita é usado. Na verdade, é o oitavo da esquerda, mas você pode pensar nele como o mais à direita. O compiladot interpreta 0 como “não” e 1 como “sim”.  Você pode desativar um sinalizador para indicar "não" ou ativar um sinalizador para indicar "sim".

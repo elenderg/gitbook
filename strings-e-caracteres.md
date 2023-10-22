@@ -16,10 +16,6 @@ Abaixo temos a implementação do tipo caractere:
 
 Um byte são 8 bits sequenciais de dados binários. São  números sem sinal, com valores variando de 0 a 255.
 
-## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\))
-
-As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades do Windows/86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
-
 
 
 ## Strings
