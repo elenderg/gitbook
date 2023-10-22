@@ -116,3 +116,6 @@ POSICIONE uma substring em uma string.&#x20;
 O que configura o caractere inicial, mas não o final, da substring, deixando-a inicialmente em branco, mas pronto para manipulação. Ao incrementar o valro do caractere final, você pode ir criando a substring um byte de cada vez.
 
 As substrings são utilizadas principalmente de forma conjunta com "percorredores".
+
+## Trabalhando com Percorredores
+
