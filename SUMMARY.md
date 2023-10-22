@@ -6,7 +6,7 @@
 * [Declaração e inicialização de variáveis](declaracao-e-inicializacao-de-variaveis.md)
 * [Estruturas](estruturas.md)
 * [Laços e Desvios condicionais](desvios-condicionais.md)
-* [Números e valores numéricos](numeros-e-valores-numericos.md)
+* [Números e valores numéricos](numeros.md)
 * [Precedência e Ordem de avaliação de operadores](precedencia-e-ordem-de-avaliacao-de-operadores.md)
 * [Strings](strings.md)
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)

@@ -30,13 +30,56 @@ Sendo que
 
 
 
-Desta forma é possível&#x20;
+Perceba que o compilador armazena "strings" em duas partes:&#x20;
+
+1. Uma <mark style="color:blue;">`estrutura`</mark> com um par de _ponteiros de bytes_ denominados<mark style="color:blue;">`caractere inicial`</mark> e <mark style="color:blue;">`caractere final`</mark>, e
+2. Um array dinâmico que contém os bytes reais da string, de forma similar à imagem abaixo:
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Os números no diagrama acima, caso você não tenha adivinhado, são endereços fictícios.
+
+Uma string é considerada `em branc`o se o caractere inicial for inexistente (ou seja, nenhuma memória foi alocada ainda) ou se o endereço do `caractere final` for menor do que o endereço do `caractere inicial` (o que permite ao compilador realizar pré-alocação de memória).
+
+As strings são alocadas dinamicamente e podem ter qualquer comprimento - mas a memória de strings é gerenciada inteiramente (e de forma muito eficiente) pelo compilador, quase como se fossem alocadas estaticamente. Em outras palavras, você não precisa se se preocupar com elas, pois o compilador gerencia a alocação e desalocação de forma automática.&#x20;
+
+## Manipulando strings
+
+Existem diversas rotinas de manipulação de strings.&#x20;
+
+Exemplos:
+
+`ATRIBUA variável PARA uma string.`&#x20;
+
+`ACRESCENTE algo PARA uma string.`&#x20;
+
+`INSIRA algo EM uma STRING antes de um caractere.`&#x20;
+
+`REMOVA O CARACTERE INICIAL DE uma string.`&#x20;
+
+`REMOVA O CARACTERE FINAL DE uma string.`&#x20;
+
+`PREENCHA uma string COM um CARACTERE USANDO uma quantidade.`&#x20;
+
+`REMOVA OS CARACTERES INICIAIS DE uma string USANDO uma quantidade.`&#x20;
+
+`REMOVA OS CARACTERES FINAIS DE uma string COM UMA quantidade.`&#x20;
+
+`REMOVE OS CARACTERES DE uma string DADA uma substring.`&#x20;
 
 
 
-As strings são alocadas dinamicamente e podem ter qualquer comprimento - mas a memória de strings é gerenciada inteiramente (e de forma muito eficiente) pelo compilador, quase como se fossem alocadas estaticamente. Em outras palavras, você não precisa se se preocupar com elas.
+Você também pode alterar uma string para deixar o texto em LETRAS MAIÚSCULAS ou em  letras minúsculas.
 
+E você pode, é claro, obter o comprimento de uma string, em bytes.&#x20;
 
+Além disso, você pode concatenar strings com strings — e outros tipos de dados — usando o operador <mark style="color:blue;">`junto com`</mark> ou <mark style="color:blue;">`seguido de`</mark>.
+
+Exemplo:
+
+`Atribua o nome`` `<mark style="color:blue;">`junto com`</mark>` ``o sobrenome para uma string.`
+
+`Escreva "Erro #"`` `<mark style="color:blue;">`junto com`</mark>` ``o número do erro`` `<mark style="color:blue;">`seguido de`</mark>` ``"." no console.`
 
 
 
