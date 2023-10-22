@@ -12,7 +12,7 @@ A lista é composta dos 256 caracteres listados abaixo, incluindo [caracteres de
 
 Abaixo temos a implementação do tipo caractere:
 
-`Um caractere é um byte.` <mark style="color:blue;">(1 byte = 8 bits)</mark>
+`Um caractere é um byte.` <mark style="color:blue;">\ 1 byte = 8 bits</mark>
 
 Um byte são 8 bits sequenciais de dados binários. São  números sem sinal, com valores variando de 0 a 255.
 
@@ -117,25 +117,62 @@ Exemplo:
 
 `Escreva "Erro #"`` `<mark style="color:blue;">`junto com`</mark>` ``o número do erro`` `<mark style="color:blue;">`seguido de`</mark>` ``"." no console.`
 
-## Substrings
+## Subtextos
 
-Uma "substring" faz parte de uma string. As substrings são implementadas como uma estrutura igual a uma string — um par de ponteiros de bytes chamados caractere inicial e caractere final — o que as torna compatíveis.
+Um "subtexto" faz parte de uma string. Os subtextos são implementadas como uma estrutura igual a uma string — um par de ponteiros de bytes chamados caractere inicial e caractere final — o que torna o subtexto compatível com o tipo string.
 
 O comando:
 
-`Lance uma substring em uma string.`&#x20;
+`Lance um subtexto em uma string.`&#x20;
 
-Faz com que o `caractere inicial` e o `caractere final` da substring para englobem toda a string.&#x20;
+Faz com que o `caractere inicial` e o `caractere final` do subtexto englobem toda a string.&#x20;
 
-Dessa forma você pode percorrer através dos caracteres da string, indo para frente ou para trás. Para iso basta incrementar o valor do endereço do caractere inicial ou reduzir o valor do endereço do caractere final.
+Dessa forma você pode percorrer através dos caracteres da string, indo para frente ou para trás. Para iso basta incrementar o valor do endereço do caractere inicial ou reduzir o valor do endereço do caractere final do subtexto.
 
 Você também pode usar o comando:&#x20;
 
-POSICIONE uma substring em uma string.&#x20;
+`POSICIONE uma substring em uma string.`&#x20;
 
-O que configura o caractere inicial, mas não o final, da substring, deixando-a inicialmente em branco, mas pronto para manipulação. Ao incrementar o valro do caractere final, você pode ir criando a substring um byte de cada vez.
+O comando acima define apenas o caractere inicial do subtexto, deixando o valor do caractere final inicialmente em branco, porém pronto para ser alterado. Ao definir e incrementar o valor do caractere final, você pode ir criando a substring um byte de cada vez.
 
 As substrings são utilizadas principalmente de forma conjunta com "percorredores".
 
 ## Trabalhando com Percorredores
+
+Parsing é o ato de percorrer um bloco de texto, um pedaço de cada vez, onde um pedaço pode ser tão pequeno quanto uma letra ou tão grande quanto o bloco inteiro.&#x20;
+
+Vamos usar a string abaixo como nosso bloco de texto de exemplo:&#x20;
+
+**"The quick brown fox jumps over the lazy dog"**&#x20;
+
+Digamos que queremos extrair cada uma das palavras individuais da string acima.&#x20;
+
+As ferramentas que usaremos serão&#x20;
+
+1. o subtexto, e
+2. o percorredor
+
+**Um percorredor é definido da seguinte forma:**
+
+`Um percorredor é uma estrutura com`&#x20;
+
+&#x20; `Uma cópia da string original,`
+
+&#x20; `Um segmento final,`
+
+&#x20; `Um segmento inicial.`
+
+`Uma cópia da string original é um subtexto.`&#x20;
+
+`Um segmento inicial é um subtexto.`&#x20;
+
+`Um segmento final é um subtexto.`
+
+
+
+Quando você "lançar" um subtexto na string acima, o compilador irá definir o caractere inicial do subtexto como **"T"** (da palavra **The**) e o caractere inicial como **"g"** (da palavra **dog**).
+
+Ao usar o comando:
+
+`"Lance um percorredor sobre o subtexto"`
 

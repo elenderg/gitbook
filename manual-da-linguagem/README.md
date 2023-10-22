@@ -30,7 +30,7 @@ layout:
 
 [Tipos comuns](https://pt.wikipedia.org/wiki/Tipo\_de\_dado):&#x20;
 
-* caractere;
+* [caractere](../strings-e-caracteres.md);
 * [string](../strings-e-caracteres.md);
 * [lista](../listas-duplamente-vinculadas.md);
 * [ponteiro](../valores-numericos.md#ponteiros);
