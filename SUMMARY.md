@@ -18,3 +18,4 @@
 * [Algoritmos de Exemplo](exemplos/README.md)
   * [Olá Mundo](exemplos/exemplos-aqui.md)
   * [API Win32 - GdipImageRotateFlip](exemplos/api-win32-gdipimagerotateflip.md)
+  * [Pintando como Claude Monet](exemplos/pintando-como-claude-monet.md)
