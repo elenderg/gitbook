@@ -101,7 +101,7 @@ Exemplos:
 
 ## Ponteiros
 
-Um ponteiro é uma estrutura com 4 bytes, funcionando de forma similar a um número, no sentido que é possível&#x20;
+Um ponteiro é uma estrutura com 4 bytes, funcionando de forma similar a um número, no sentido que é possível efetuar operações aritméticas comuns (soma, subtração, etc).
 
 Os endereços de memória são armazenados em ponteiros de 32 bits, de trás para frente. Eles têm o mesmo intervalo dos números, mas todos os negativos pertencem ao Windows. _O endereço 0 é inválido e é denominado <mark style="color:blue;">nulo</mark> ou <mark style="color:blue;">inexistente</mark>_. **Você pode anular um ponteiro para torná-lo nulo.**
 
