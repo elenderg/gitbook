@@ -107,8 +107,8 @@ Os endereços de memória são armazenados em ponteiros de 32 bits, de trás par
 
 ## Valores booleanos
 
-Existem 2 valroes booleanos:
+Existem 2 valores booleanos:
 
 <mark style="color:blue;">`sim`</mark> (valor 1)  e  <mark style="color:blue;">`não`</mark> (valor 0).
 
-Eles têm 32 bits, mas apenas o bit mais à direita é usado. Na verdade, é o oitavo da esquerda, mas você pode pensar nele como o mais à direita. O compiladot interpreta 0 como “não” e 1 como “sim”.  Você pode desativar um sinalizador para indicar "não" ou ativar um sinalizador para indicar "sim".
+Eles têm 32 bits, mas apenas o bit mais à direita é usado. Na verdade, é o oitavo da esquerda, mas você pode pensar nele como o mais à direita. O compilador interpreta 0 como “não” e 1 como “sim”.  Você pode desativar um sinalizador para indicar "não" ou ativar um sinalizador para indicar "sim".
