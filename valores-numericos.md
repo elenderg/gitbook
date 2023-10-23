@@ -91,7 +91,7 @@ Abaixo temos a implementação de números mistos:
 
 ## Valores Hexadecimais
 
-Os valroes hexadecimais são prefixados com o caractere <mark style="color:blue;">`$`</mark>.
+Os valores hexadecimais são prefixados com o caractere <mark style="color:blue;">`$`</mark>.
 
 Exemplos:
 
