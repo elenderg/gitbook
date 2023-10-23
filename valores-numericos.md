@@ -11,7 +11,7 @@ A linguagem trabalha com os seguintes valores numéricos:
 
 ## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\)) (Palavras)
 
-As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
+As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada byte são armazenados na forma "[little-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))" (da esquerda para a direita),mas os bytes em si são armazenados inversamente (na forma "[big endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))").
 
 ## Números inteiros
 
@@ -37,7 +37,7 @@ Um número é uma estrutura com
   Uma word de ordem superior sob o terceiro byte.
 ```
 
-Os números são armazenados de trás para frente devido à extremidade (ordenação) dos processadores x86.
+Os números são armazenados de trás para frente (formato "[big-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))") devido à [extremidade (ordenação)](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\)) dos processadores x86.
 
 `O menor número é -2147483648.`` `<mark style="color:blue;">`\ número de 4 bytes/32 bits`</mark>
 
@@ -98,7 +98,7 @@ Exemplos:
 
 Um ponteiro é uma estrutura com 4 bytes, funcionando de forma similar a um número, no sentido que é possível efetuar operações aritméticas comuns (soma, subtração, etc).
 
-Os endereços de memória são armazenados em ponteiros de 32 bits, de trás para frente. Eles têm o mesmo intervalo dos números, mas todos os negativos pertencem ao Windows. _O endereço 0 é inválido e é denominado <mark style="color:blue;">nulo</mark> ou <mark style="color:blue;">inexistente</mark>_. **Você pode anular um ponteiro para torná-lo nulo.**
+Os endereços de memória são armazenados em ponteiros de 32 bits, de trás para frente (formato "[big-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))"). Eles têm o mesmo intervalo dos números, mas todos os negativos pertencem ao Windows. _O endereço 0 é inválido e é denominado <mark style="color:blue;">nulo</mark> ou <mark style="color:blue;">inexistente</mark>_. **Você pode anular um ponteiro para torná-lo nulo.**
 
 ## Valores booleanos
 
