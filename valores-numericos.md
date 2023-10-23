@@ -97,7 +97,7 @@ Exemplos:
 
 <mark style="color:blue;">`$DEADBEEF`</mark>
 
-<mark style="color:blue;">`$0D0A`</mark>
+<mark style="color:blue;">`$B0DEFE10`</mark>
 
 ## Ponteiros
 
