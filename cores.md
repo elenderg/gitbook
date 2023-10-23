@@ -1,8 +1,10 @@
 # Cores
 
-Uma cor tem uma matiz, uma saturação e um brilho.&#x20;
+A Biblioteca padrão implementa cores da seguinte forma:
 
-A Biblioteca padrão inclui clores claras, brancos, pretos, sete cinzas não saturados e mais de 80 cores totalmente saturadas com diferentes graus de claridade, como mostrado na imagem abaixo:
+`Uma cor tem uma`` `<mark style="color:blue;">`matiz`</mark>`, uma`` `<mark style="color:red;">`saturação`</mark>` ``e um`` `<mark style="color:green;">`brilho`</mark>`.`&#x20;
+
+A Biblioteca padrão inclui clores claras, e escuras, incluindo tons brancos e pretos, sete tons de cinzas não saturados e mais de 80 cores totalmente saturadas com diferentes graus de luminosidade, como mostrado na imagem abaixo:
 
 <figure><img src=".gitbook/assets/image (1) (1).png" alt="Paleta de cores"><figcaption></figcaption></figure>
 

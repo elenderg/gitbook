@@ -80,5 +80,20 @@ A Biblioteca padrão também contém rotinas para "Atribuir a quantidade de elem
 
 
 
-_<mark style="color:red;">As listas são alocadas dinamincamente então é necessário efetuar a alocação e desalocação de memória das listas manualmente, de forma explícita.</mark>_
+_<mark style="color:red;">As listas são alocadas dinamicamente então é necessário efetuar a alocação e desalocação de memória das listas manualmente, de forma explícita.</mark>_
 
+Exemplo de alocação:
+
+`Crie a Bíblia.`
+
+ou
+
+`Aloque memória para a Bíblia.`
+
+Exemplo de desalocação:
+
+`Destrua a Bíblia.`
+
+ou
+
+`Desaloque a Bíblia.`
