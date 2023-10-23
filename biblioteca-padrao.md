@@ -22,5 +22,5 @@ A Biblioteca padrão contém definições de tipos, variáveis globais e rotinas
 * Manipulação de números e ponteiros
 * T[rigonometria Racional](https://pt.wikipedia.org/wiki/Trigonometria\_racional)
 
-Embora não seja necessário nenhum comando especial para importar a biblitoeca, é necessário que o arquivo <mark style="color:purple;">`Biblioteca padrão`</mark> esteja na mesma pasta do programa a ser compilado.
+Embora não seja necessário nenhum comando especial para importar a biblioteca, é necessário que o arquivo <mark style="color:purple;">`Biblioteca padrão`</mark> esteja na mesma pasta do programa a ser compilado.
 
