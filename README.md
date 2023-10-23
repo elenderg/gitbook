@@ -10,20 +10,19 @@ description: >-
 
 Este guia recomenda que você possua os seguintes conhecimentos básicos, em qualquer linguagem de programação:
 
-1. **A assim denominada "Lógica de Programação":** Com isto me refiro à capacidade de pensar logicamente e resolver problemas de forma algorítmica. Isso envolve a compreensão de estruturas de controle (como loops e condicionais) e a capacidade de projetar algoritmos eficientes.
-2. **Estruturas de Dados:** Conhecimento de estruturas de dados, como arrays, listas, pilhas, filas, árvores, grafos, etc. É importante saber quando e como aplicar cada uma delas para resolver problemas específicos.
-3. **Algoritmos:** Compreensão de algoritmos clássicos e a capacidade de projetar algoritmos eficientes. Isso inclui a análise de complexidade (tempo e espaço) dos algoritmos.
-4. **Orientação a Objetos (OOP):** Embora esta seja uma linguagem procedural, é útil entender os princípios da OOP, como encapsulamento, herança e polimorfismo.
-5. **Gerenciamento de Memória:** Em linguagens como C, o programador é responsável pelo gerenciamento de memória. Compreender alocação e liberação de memória é crucial para evitar vazamentos de memória e problemas de corrupção.
-6. **Depuração e Testes:** Habilidades para depurar código, identificar erros e realizar testes para garantir a funcionalidade e a robustez do programa.
-7. **Bibliotecas e APIs:** Familiaridade com o conceito de bibliotecas e APIs para realizar tarefas comuns, como entrada/saída, manipulação de arquivos, redes, etc.
-8. **Segurança:** Conhecimento sobre práticas de segurança, por exemplo, vulnerabilidades relacionadas à estouro de buffer.
-9. **Padrões de Codificação:** Adesão a padrões de codificação apropriados, como convenções de nomenclatura, estilo de código e boas práticas de programação.
-10. **Controle de Versão:** Familiaridade com sistemas de controle de versão, como Git, para rastrear e gerenciar alterações no código-fonte.
-11. **Compreensão da Arquitetura do Computador:** Ter um entendimento básico da arquitetura x86 pode ajudar na otimização de seu código e na otimização do desempenho.
-12. **Resolução de Problemas:** A capacidade de quebrar problemas complexos em problemas menores e abordá-los de maneira sistemática é fundamental para programadores.
-13. **Boas Práticas de Documentação:** Documentar código de forma clara e concisa para facilitar a manutenção e a colaboração.
-14. **Aprendizado Contínuo:** O mundo da tecnologia evolui rapidamente, então estar disposto a aprender continuamente e acompanhar as novas tendências é importante.
+1. **Estruturas de Dados:** Conhecimento de estruturas de dados, como arrays, listas, pilhas, filas, árvores, grafos, etc. É importante saber quando e como aplicar cada uma delas para resolver problemas específicos.
+2. **Algoritmos:** Compreensão de algoritmos clássicos e a capacidade de projetar algoritmos eficientes. Isso inclui a análise de complexidade (tempo e espaço) dos algoritmos.
+3. **Orientação a Objetos (OOP):** Embora esta seja uma linguagem procedural, é útil entender os princípios da OOP, como encapsulamento, herança e polimorfismo.
+4. **Gerenciamento de Memória:** Em linguagens como C, o programador é responsável pelo gerenciamento de memória. Compreender alocação e liberação de memória é crucial para evitar vazamentos de memória e problemas de corrupção.
+5. **Depuração e Testes:** Habilidades para depurar código, identificar erros e realizar testes para garantir a funcionalidade e a robustez do programa.
+6. **Bibliotecas e APIs:** Familiaridade com o conceito de bibliotecas e APIs para realizar tarefas comuns, como entrada/saída, manipulação de arquivos, redes, etc.
+7. **Segurança:** Conhecimento sobre práticas de segurança, por exemplo, vulnerabilidades relacionadas à estouro de buffer.
+8. **Padrões de Codificação:** Adesão a padrões de codificação apropriados, como convenções de nomenclatura, estilo de código e boas práticas de programação.
+9. **Controle de Versão:** Familiaridade com sistemas de controle de versão, como Git, para rastrear e gerenciar alterações no código-fonte.
+10. **Compreensão da Arquitetura do Computador:** Ter um entendimento básico da arquitetura x86 pode ajudar na otimização de seu código e na otimização do desempenho.
+11. **Resolução de Problemas:** A capacidade de quebrar problemas complexos em problemas menores e abordá-los de maneira sistemática é fundamental para programadores.
+12. **Boas Práticas de Documentação:** Documentar código de forma clara e concisa para facilitar a manutenção e a colaboração.
+13. **Aprendizado Contínuo:** O mundo da tecnologia evolui rapidamente, então estar disposto a aprender continuamente e acompanhar as novas tendências é importante.
 
 
 

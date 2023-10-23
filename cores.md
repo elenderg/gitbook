@@ -6,7 +6,7 @@ A Biblioteca padrão inclui clores claras, brancos, pretos, sete cinzas não sat
 
 <figure><img src=".gitbook/assets/image (1) (1).png" alt="Paleta de cores"><figcaption></figcaption></figure>
 
-A biblitoeca padrão contém uma variável global para cada uma dessas cores.&#x20;
+A biblioteca padrão contém uma variável global para cada uma dessas cores.&#x20;
 
 Por exemplo:
 
@@ -14,13 +14,15 @@ Por exemplo:
 
 <mark style="color:blue;">`"A cor azul escuro"`</mark>.&#x20;
 
-Você deve omitir o adjetivo em tons normais, como em <mark style="color:red;">`"a cor vermelha"`</mark>`.`&#x20;
+Você deve omitir o "adjetivo" em tons de cores normais, como por exemplo em <mark style="color:red;">`"a cor vermelha"`</mark>`.`&#x20;
 
-As cores são baseadas no modelo de cor HSL.
+As cores são baseadas no [modelo de cor HSL](https://pt.wikipedia.org/wiki/HLS).
 
 Você também pode criar suas próprias cores usando o comando:&#x20;
 
-
-
 FAÇA uma cor usando uma _tonalidade_ e uma _saturação_ e um _brilho_.
+
+Exemplo:
+
+`Faça uma cor usando 300`` `<mark style="color:blue;">`[tonalidade]`</mark>` ``e 1000`` `<mark style="color:blue;">`[saturação]`</mark>` ``e 500`` `<mark style="color:blue;">`[brilho].`</mark>
 

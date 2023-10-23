@@ -67,7 +67,7 @@ Observação: os números no diagrama acima, são endereços fictícios.
 
 Uma string é considerada <mark style="color:blue;">`em branco`</mark> se o caractere inicial for inexistente (ou seja, nenhuma memória foi alocada ainda) ou se o endereço do <mark style="color:blue;">`caractere final`</mark> for menor do que o endereço do <mark style="color:blue;">`caractere inicial`</mark> (o que permite ao compilador realizar pré-alocação de memória).
 
-As strings são alocadas dinamicamente e podem ter qualquer comprimento - mas a memória de strings é gerenciada inteiramente (e de forma muito eficiente) pelo compilador, quase como se fossem alocadas estaticamente. Em outras palavras, você não precisa se se preocupar com elas, pois o compilador gerencia a alocação e desalocação de forma automática.&#x20;
+As strings são alocadas dinamicamente e podem ter qualquer comprimento - mas a memória de strings é gerenciada inteiramente (e de forma muito eficiente) pelo compilador, quase como se fossem alocadas estaticamente. Em outras palavras, você não precisa se preocupar com elas, pois o compilador gerencia a alocação e desalocação de forma automática.&#x20;
 
 ## Manipulando strings
 
@@ -137,7 +137,7 @@ As substrings são utilizadas principalmente de forma conjunta com "percorredore
 
 ## Trabalhando com Percorredores
 
-Um "percorredor" é uma estrutura usada para analisar strings (fazer o parsing) . Para entendê-lo, você deve estar familiarozado com o conceito "[strings](strings-e-caracteres.md#strings)" e "[subtextos](strings-e-caracteres.md#subtextos)".
+Um "percorredor" é uma estrutura usada para analisar strings (fazer o parsing) . Para entendê-lo, você deve estar familiarizado com o conceito "[strings](strings-e-caracteres.md#strings)" e "[subtextos](strings-e-caracteres.md#subtextos)".
 
 Parsing é o ato de percorrer um bloco de texto, um pedaço de cada vez, onde um pedaço pode ser tão pequeno quanto uma letra ou tão grande quanto o bloco inteiro.&#x20;
 
@@ -154,21 +154,15 @@ As ferramentas que usaremos serão&#x20;
 
 **Um percorredor é definido da seguinte forma:**
 
-> Um percorredor é uma estrutura com&#x20;
->
-> &#x20; Uma cópia da string original,
->
-> &#x20; Um segmento final,&#x20;
->
->
->
-> Uma cópia da string original é um subtexto.&#x20;
->
-> Um segmento inicial é um subtexto.&#x20;
->
-> Um segmento final é um subtexto.
+```
+Um percorredor é uma estrutura com 
+  Uma cópia da string original,
+  Um segmento final, 
 
-
+Uma cópia da string original é um subtexto. 
+Um segmento inicial é um subtexto. 
+Um segmento final é um subtexto.
+```
 
 Quando você "lançar" um subtexto na string acima, o compilador irá definir o caractere inicial do subtexto como **"T"** (da palavra **The**) e o caractere inicial como **"g"** (da palavra **dog**).
 

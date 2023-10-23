@@ -9,7 +9,7 @@ A linguagem trabalha com os seguintes valores numéricos:
 * [Ponteiros;](valores-numericos.md#ponteiros)
 * [Valores booleanos.](valores-numericos.md#valores-booleanos)
 
-## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\))
+## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\)) (Palavras)
 
 As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada byte são armazenados da esquerda para a direita, mas os bytes são armazenados inversamente.
 
@@ -27,23 +27,17 @@ Um "número" consiste em dígitos, com um sinal opcional, mas sem espaços ou ou
 
 A implementação de um número de 32 bits é a seguinte:
 
-`Um número é uma estrutura com`&#x20;
-
-&#x20; `Um primeiro byte,`
-
-&#x20; `Um segundo byte,`
-
-&#x20; `Um terceiro byte,`
-
-&#x20; `Um quarto byte,`` `<mark style="color:blue;">`\ 4 bytes = 32 bits`</mark>&#x20;
-
-&#x20; `Uma word de ordem inferior sob o primeiro byte,`&#x20;
-
-&#x20; `Uma word de ordem superior sob o terceiro byte.`
+```
+Um número é uma estrutura com 
+  Um primeiro byte,
+  Um segundo byte,
+  Um terceiro byte,
+  Um quarto byte, \ 4 bytes = 32 bits 
+  Uma word de ordem inferior sob o primeiro byte, 
+  Uma word de ordem superior sob o terceiro byte.
+```
 
 Os números são armazenados de trás para frente devido à extremidade (ordenação) dos processadores x86.
-
-
 
 `O menor número é -2147483648.`` `<mark style="color:blue;">`\ número de 4 bytes/32 bits`</mark>
 
@@ -63,11 +57,13 @@ Exemplos:&#x20;
 
 A implementação de uma fração é a seguinte:
 
-`Uma fração é uma estrutura com`
+```
+Uma fração é uma estrutura com
+  Um numerador e
+  Um denominador.
+```
 
-&#x20; `Um numerador e`
 
-&#x20; `Um denominador.`
 
 ## Números mistos
 
@@ -81,13 +77,12 @@ Um número misto é composto de um número, um traço e uma fração sem sinal. 
 
 Abaixo temos a implementação de números mistos:
 
-`Um numeral misto é uma estrutura com`&#x20;
-
-&#x20; `Um número inteiro e`&#x20;
-
-&#x20; `Uma proporção e`&#x20;
-
-&#x20; `Uma fração`` `_`sob`_` ``a proporção.`
+```
+Um numeral misto é uma estrutura com 
+  Um número inteiro e 
+  Uma proporção e 
+  Uma fração sob a proporção.
+```
 
 ## Valores Hexadecimais
 
