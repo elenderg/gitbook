@@ -14,7 +14,7 @@ Uma estrutura vazia ocupa 0 bits na memória, mas você pode definir estruturas 
 
 O tamanho da estrutura é, em via de rega, igual à soma do tamanho de seus campos.
 
-## Unindo dados
+## Uniões de dados
 
 Uma união é um valor que pode ter várias representações ou formatos dentro da mesma posição na memória.
 
