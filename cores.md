@@ -6,7 +6,7 @@ A Biblioteca padrão implementa cores da seguinte forma:
 
 A Biblioteca padrão inclui clores claras, e escuras, incluindo tons brancos e pretos, sete tons de cinzas não saturados e mais de 80 cores totalmente saturadas com diferentes graus de luminosidade, como mostrado na imagem abaixo:
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt="Paleta de cores"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt="Paleta de cores"><figcaption></figcaption></figure>
 
 A biblioteca padrão contém uma variável global para cada uma dessas cores.&#x20;
 

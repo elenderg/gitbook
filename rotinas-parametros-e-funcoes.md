@@ -57,7 +57,7 @@ Rotina para que se calcule uma soma usando um número:
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
