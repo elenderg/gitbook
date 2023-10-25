@@ -26,7 +26,7 @@ layout:
 
 [Paradigma de programação](https://pt.wikipedia.org/wiki/Paradigma\_de\_programa%C3%A7%C3%A3o): [Programação estruturada](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o\_estruturada).
 
-[Tipos primitivos](https://pt.wikipedia.org/wiki/Tipo\_de\_dado): byte e [estrutura](../estruturas.md).
+[Tipos primitivos](https://pt.wikipedia.org/wiki/Tipo\_de\_dado): byte e [estrutura](../estruturas-e-unioes-de-dados.md).
 
 [Tipos comuns](https://pt.wikipedia.org/wiki/Tipo\_de\_dado):&#x20;
 

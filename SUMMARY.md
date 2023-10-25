@@ -5,7 +5,7 @@
 * [Características da linguagem](manual-da-linguagem/README.md)
 * [Comentários](comentarios.md)
 * [Declaração e inicialização de variáveis](declaracao-e-inicializacao-de-variaveis.md)
-* [Estruturas](estruturas.md)
+* [Estruturas e Uniões de dados](estruturas-e-unioes-de-dados.md)
 * [Laços e Desvios condicionais](desvios-condicionais.md)
 * [Listas duplamente vinculadas](listas-duplamente-vinculadas.md)
 * [Valores numéricos](valores-numericos.md)

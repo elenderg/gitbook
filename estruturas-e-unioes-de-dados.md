@@ -1,4 +1,4 @@
-# Estruturas
+# Estruturas e Uniões de dados
 
 Uma [estrutura](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) é um tipo de dado composto, com vários membros.
 
@@ -14,7 +14,11 @@ Uma estrutura vazia ocupa 0 bits na memória, mas você pode definir estruturas 
 
 O tamanho da estrutura é, em via de rega, igual à soma do tamanho de seus campos.
 
-Porém é possível criar uma "[união](https://en.wikipedia.org/wiki/Union\_type)[ de dados](https://en.wikipedia.org/wiki/Union\_type)" utilizando a palavra-chave **sob**.
+## Unindo dados
+
+Uma união é um valor que pode ter várias representações ou formatos dentro da mesma posição na memória.
+
+É possível criar uma "[união](https://en.wikipedia.org/wiki/Union\_type)[ de dados](https://en.wikipedia.org/wiki/Union\_type)" utilizando a palavra-chave **sob**.
 
 Exemplo:
 
