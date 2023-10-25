@@ -20,3 +20,4 @@
   * [Dó Ré Mi Fá](exemplos/do-re-mi-fa.md)
   * [API Win32 - GdipImageRotateFlip](exemplos/api-win32-gdipimagerotateflip.md)
   * [Pintando como Claude Monet](exemplos/pintando-como-claude-monet.md)
+  * [Exemplo de interface](exemplos/exemplo-de-interface.md)
