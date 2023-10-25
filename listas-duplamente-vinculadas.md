@@ -4,96 +4,65 @@ Uma lista encadeada ou lista ligada é uma [estrutura de dados](https://pt.wikip
 
 Você pode declarar listas usando a seguinte sintaxe:
 
-
-
-`A Bíblia é uma`` `<mark style="color:blue;">`lista com`</mark>` ``uns versos.`
-
-`Um verso é uma`` `<mark style="color:blue;">`lista com`</mark>` ``uma string.`
-
-
+```
+A Bíblia é uma lista com uns versos.
+Um verso é uma lista com uma string.
+```
 
 O compilador irá, internamente, converter as declarações acima, nas estruturas abaixo:
 
-`Um verso é um`` `<mark style="color:blue;">`ponteiro para`</mark>` ``uma estrutura de versos.`
+```
+Um verso é um ponteiro para uma estrutura de versos.
 
-`Uma estrutura de versos é uma`` `<mark style="color:blue;">`estrutura`</mark>` ``com`
-
-&#x20; `Um`<mark style="color:green;">`próximo`</mark>`verso,`
-
-&#x20; `Um verso`<mark style="color:green;">`anterior`</mark>`e`&#x20;
-
-&#x20; `Uma string.`
-
-`Uns versos são uma lista com`
-
-&#x20; `Um`<mark style="color:green;">`primeiro`</mark>`verso e`
-
-&#x20; `Um`<mark style="color:green;">`último`</mark>`verso.`
-
-
+Uma estrutura de versos é uma estrutura com
+  Um próximo verso,
+  Um verso anteriore 
+  Uma string.
+  
+Uns versos são uma lista com
+  Um primeiro verso e
+  Um último verso.
+```
 
 Na Biblioteca padrão existem diversas rotinas para trabalhar com listas.&#x20;
 
 Exemplos:
 
+```
+ACRESCENTE uma lista para umas listas. 
+ACRESCENTE umas listas para umas outras listas. 
+INSIRA uma lista em umas listas APÓS uma outra lista. 
+INSIRA umas listas em umas outras listas APÓS  uma lista.
+INSIRA uma lista em umas listas ANTES DE uma outra lista. 
+INSIRA umas listas em umas outras listas ANTES DE uma lista. 
+MOVA uma lista de umas listas para outras listas. 
+MOVA umas listas para umas outras listas. 
+ANTEPONHA uma lista para umas listas. 
+ANTEPONHA umas listas para umas outras listas. 
+REVERTA umas listas.
+REMOVA uma lista desde umas listas. 
+```
 
+Exemplo de utilização:
 
-`ACRESCENTE uma lista para umas listas.`&#x20;
+&#x20;<mark style="color:blue;">`Acrescente o verso para os versos.`</mark>
 
-`ACRESCENTE umas listas para umas outras listas.`&#x20;
+<mark style="color:blue;">`Insira o verso após os outros versos.`</mark>
 
-Exemplo:  `Acrescente o verso para os versos.`
+&#x20;<mark style="color:blue;">`Remova o verso desde os versos.`</mark>
 
-
-
-`INSIRA uma lista em umas listas APÓS uma outra lista.`&#x20;
-
-`INSIRA umas listas em umas outras listas APÓS  uma lista.`&#x20;
-
-Exemplo:  `Insira o verso após os outros versos.`
-
-
-
-`INSIRA uma lista em umas listas ANTES DE uma outra lista.`&#x20;
-
-`INSIRA umas listas em umas outras listas ANTES DE uma lista.`&#x20;
-
-`MOVA uma lista de umas listas para outras listas.`&#x20;
-
-`MOVA umas listas para umas outras listas.`&#x20;
-
-`ANTEPONHA uma lista para umas listas.`&#x20;
-
-`ANTEPONHA umas listas para umas outras listas.`&#x20;
-
-
-
-`REMOVA uma lista desde umas listas.`&#x20;
-
-Exemplo:  `Remova o verso desde os versos.`
-
-
-
-`REVERTA umas listas.`
-
-A Biblioteca padrão também contém rotinas para "Atribuir a quantidade de elementos de uma lista para uma contagem."
-
-
+A Biblioteca padrão também contém rotinas para <mark style="color:blue;">`"Atribuir a quantidade de elementos de uma lista para uma contagem."`</mark>
 
 _<mark style="color:red;">As listas são alocadas dinamicamente então é necessário efetuar a alocação e desalocação de memória das listas manualmente, de forma explícita.</mark>_
 
-Exemplo de alocação:
+Exemplos de alocação:
 
-`Crie a Bíblia.`
+<mark style="color:blue;">`Crie a Bíblia.`</mark>
 
-ou
+<mark style="color:blue;">`Aloque memória para a Bíblia.`</mark>
 
-`Aloque memória para a Bíblia.`
+Exemplos de desalocação:
 
-Exemplo de desalocação:
+<mark style="color:red;">`Destrua a Bíblia.`</mark>
 
-`Destrua a Bíblia.`
-
-ou
-
-`Desaloque a Bíblia.`
+<mark style="color:red;">`Desaloque a Bíblia.`</mark>
