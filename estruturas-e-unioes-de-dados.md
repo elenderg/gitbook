@@ -18,7 +18,7 @@ Perceba que a estrutura acima contém 02 membros: o **caractere inicial** e o **
 
 Se você pesquisar na Biblioteca padrão irá encontrar a implementação destes dois tipos de dados.
 
-Se o tipo de dado for utilizado apenas dentro do contexto da estrutura, você pode utilizar a palavra-chave **"denominado"** (e suas respectivas variações em gênero e número).
+Se o tipo de dado for utilizado apenas dentro do contexto da estrutura, você pode utilizar a palavra-chave **"denominado"** (e suas respectivas flexões em gênero e número).
 
 A sintaxe geral é:
 
