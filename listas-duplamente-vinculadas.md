@@ -66,3 +66,24 @@ Exemplos de desalocação:
 <mark style="color:red;">`Destrua a Bíblia.`</mark>
 
 <mark style="color:red;">`Desaloque a Bíblia.`</mark>
+
+Perceba que ao destruir uma lista, todos os seus elementos são destruídos juntamente com ela.
+
+Para evitar este comportamento, utilize a palavra-chave "**(referência)"** após o nome do elemento.
+
+Exemplos:
+
+```
+Um campo de estrutura é uma estrutura com
+  Um sinalizador de redirecionamento,
+  Um campo (referência),
+  Uma rotina de função (referência),
+  Um sinalizador de empilhamento.
+
+Uma unidade semântica é uma lista com
+  Uma string,
+  Um tipo (referência),
+  Uma variável (referência),
+  Um tipo atual (referência),
+  Um subtexto atual.
+```
