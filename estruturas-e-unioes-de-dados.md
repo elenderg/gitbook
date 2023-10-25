@@ -12,7 +12,7 @@ Uma string é uma estrutura com
 
 Uma estrutura vazia ocupa 0 bits na memória, mas você pode definir estruturas de qualquer comprimento adicionando "campos" ou "membros" ao protótipo da estrutura. Esses campos podem ser de qualquer tipo.
 
-O tamanho da estrutura é, em via de rega, igual à soma do tamanho de seus campos.
+O tamanho da estrutura é, em via de regra, igual à soma do tamanho de seus campos.
 
 Perceba que a estrutura acima contém 02 membros: o **caractere inicial** e o **caractere final**.&#x20;
 
