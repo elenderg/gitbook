@@ -16,7 +16,7 @@ Um verso é um ponteiro para uma estrutura de versos.
 
 Uma estrutura de versos é uma estrutura com
   Um próximo verso,
-  Um verso anteriore 
+  Um verso anterior e 
   Uma string.
   
 Uns versos são uma lista com
@@ -32,7 +32,7 @@ Exemplos:
 ACRESCENTE uma lista para umas listas. 
 ACRESCENTE umas listas para umas outras listas. 
 INSIRA uma lista em umas listas APÓS uma outra lista. 
-INSIRA umas listas em umas outras listas APÓS  uma lista.
+INSIRA umas listas em umas outras listas APÓS uma lista.
 INSIRA uma lista em umas listas ANTES DE uma outra lista. 
 INSIRA umas listas em umas outras listas ANTES DE uma lista. 
 MOVA uma lista de umas listas para outras listas. 
