@@ -14,15 +14,13 @@ Uma estrutura vazia ocupa 0 bits na memória, mas você pode definir estruturas 
 
 O tamanho da estrutura é, em via de regra, igual à soma do tamanho de seus campos.
 
-Perceba que a estrutura acima contém 02 membros: o **caractere inicial** e o **caractere final**.&#x20;
+Perceba que a estrutura acima contém 02 membros: o **caractere inicial** e o **caractere final**. isto só é possível por causa que estes tipos já haviam sido declarados previamente (caso contrário o compilador emitiria uma mensagem de erro informando que o tipo de dado declarado não foi reconhecido).&#x20;
 
-Se você pesquisar na Biblioteca padrão irá encontrar a implementação destes dois tipos de dados.
-
-Se o tipo de dado for utilizado apenas dentro do contexto da estrutura, você pode utilizar a palavra-chave **"denominado"** (e suas respectivas flexões em gênero e número).
+Não é necessário declarar um novo tipo de dado para cada membro de uma estrutura. Se o tipo de dado for utilizado apenas dentro do contexto da estrutura, você pode utilizar a palavra-chave **"denominado"** (e suas respectivas flexões em gênero e número).
 
 A sintaxe geral é:
 
-`<tipo>`` `<mark style="color:blue;">`denominado`</mark>` ``<nome>`
+`<artigo indefinido> <tipo>`` `<mark style="color:blue;">`denominado`</mark>` ``<nome>`
 
 Exemplo:
 
