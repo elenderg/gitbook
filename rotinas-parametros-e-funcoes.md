@@ -4,35 +4,30 @@ Para um melhor entendimento da linguagem iremos converter a função Javascript 
 
 {% code lineNumbers="true" %}
 ```javascript
-var soma;
-function CalculaSoma(soma, numero) {
-    if (numero < 0) {
-        return;
+function Altera(numero) {
+  if(number < 0){
+    return;
     }
-    soma = 0;
-    let contador = 1;
-    while (true) {
-        if (contador > numero) {
-            break;
-        }
-        if (contador % 2 !== 0) {
-            soma += contador;
-        }
-        contador++;
+  let contador = numero *2;
+  while (true) {
+    contador ++;
+    if (contador >= 10) {
+      break;
     }
+  }
 }
 ```
 {% endcode %}
 
 **Dados da função**
 
-**Nome:** CalculaSoma.
+**Nome:** Altera.
 
 **Parâmetros:** numero.
 
 **Variáveis locais:** contador.
 
-**Número de linhas:** **17**
+**Número de linhas:** **12**
 
 
 
@@ -40,36 +35,25 @@ A rotina acima ficaria assim:
 
 {% code lineNumbers="true" %}
 ```textile
-Uma soma é um número.
-
-Rotina para que se calcule uma soma usando um número:
+Rotina para que se altere um número:
   Se o número for menor do que 0, retorne.
-  Atribua 0 para a soma.
-  Atribua 1 para um contador.
+  Atribua o número vezes 2 para um contador.
   Itere.
-    Se o contador for maior do que o número, pare.
-    Se o contador for uniformemente divisível por 2, 
-      Adicione o contador à soma.
     Adicione 1 para o contador.
+    Se o contador for maior do que 10, pare.
   Reitere.
 ```
 {% endcode %}
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
 **Dados da rotina**
 
-**Nome:** Calcule
+**Nome:** Altere
 
-**Parâmetros:** soma, número
+**Parâmetros:** número
 
 **Variáveis locais:** contador.
 
-**Número de linhas: 12**
+**Número de linhas: 7**
 
 ## Funções de retorno booleano
 
