@@ -23,23 +23,35 @@ Este guia recomenda que você possua alguma experiência prévia em linguagens c
 
 ## O que é Português Puro?
 
-Português Puro é uma linguagem de programação de alto nível que permite criar software utilizando alto nível de abstração.
+Português Puro é uma linguagem de programação de alto nível, ou seja é uma linguagem que permite criar programas utilizando um alto nível de abstração.
 
-Português Puro possui uma biblioteca padrão de tipos de dados, como: Números inteiros, fracionários, Strings e listas duplamente encadeadas, além de um conjunto de elementos essenciais que compõem o cerne da linguagem, incluindo operadores, estruturas de controle e declarações. O núcleo do Português Puro pode ser expandido para uma variedade de finalidades, permitindo, assim, a extensão da linguagem.
+Português Puro possui uma biblioteca padrão de tipos de dados, como:&#x20;
+
+* Números inteiros,
+* Números fracionários;
+* Caracteres;
+* Strings;
+* Listas duplamente encadeadas,&#x20;
+* Estruturas.
+
+Além de possuir um conjunto de elementos essenciais que compõem o cerne da linguagem, incluindo operadores, estruturas de controle e declarações. O compilador e a Biblioteca padrão do Português Puro podem ser expandidos para uma variedade de finalidades, permitindo, assim, a extensão da linguagem.
 
 ## Começando a programar com Português Puro
 
 Para iniciar a aprendizagem da linguagem Português Puro, você precisará de um ambiente de desenvolvimento adequado.&#x20;
 
-Uma ferramenta muito útil para explorar o Português Puro é o ambiente de desenvolvimento integrado (IDE), denominado [PAL-1000](https://github.com/elenderg/PAL-1000) que permite escrever código em Português Puro e executá-lo.
+Aqui está uma breve introdução sobre como dar seus primeiros passos com o Português Puro:
 
-Aqui está uma breve introdução sobre como iniciar com o Português Puro:
-
-1. Escolha um ambiente de desenvolvimento integrado (IDE) que suporte o Português Puro, como o [Notepad++](https://notepad-plus-plus.org/downloads/) ou o [PAL-1000](https://github.com/elenderg/PAL-1000).
+1. Escolha um ambiente de desenvolvimento integrado (IDE) que suporte o Português Puro, como o [Notepad++](https://notepad-plus-plus.org/downloads/) ou o [_PAL-1000_](https://github.com/elenderg/PAL-1000).
 2. Abra o IDE e crie um novo arquivo de texto.
 3. Escreva o seu código no editor de texto da IDE.
 4. Compile e execute o programa para ver os resultados.
 
 O ambiente de desenvolvimento integrado pode variar dependendo da escolha do IDE, mas todos eles oferecem recursos semelhantes para escrever, compilar e executar o código.
 
-Esta é a documentação oficial da linguagem Português Puro. Escolha um dos itens ao lado para continuar ou simplesmente clique no botão abaixo.
+{% hint style="info" %}
+Uma ferramenta útil para explorar as capacidades o Português Puro é o [Ambiente de desenvolvimento integrado](https://pt.wikipedia.org/wiki/Ambiente\_de\_desenvolvimento\_integrado) (ADI), denominado [PAL-1000](https://github.com/elenderg/PAL-1000) que permite escrever código em Português Puro e executá-lo. Ele foi criado inteiramente em Português Puro com o objetivo de demonstar as capacidades da linguagem, servindo assim como uma [_Prova de Conceito_](https://pt.wikipedia.org/wiki/Prova\_de\_conceito).
+{% endhint %}
+
+
+
