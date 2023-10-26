@@ -92,4 +92,8 @@ Exemplos de gráfico de tartaruga:
 
 <figure><img src=".gitbook/assets/OSMOSIAN COMPASS.png" alt=""><figcaption><p>Rosa dos Ventos</p></figcaption></figure>
 
+ 
+
+<figure><img src=".gitbook/assets/árvore fractal.PNG" alt=""><figcaption></figcaption></figure>
+
 </div>
