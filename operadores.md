@@ -26,5 +26,26 @@ Exemplos:
 
 `Atribua 1`` `<mark style="color:blue;">`mais`</mark>` ``o deslocamento para o ponteiro.`
 
+Existem também rotinas auxiliares, tais como:
+
+```
+Adicione <alguma coisa> para <outra coisa>.
+Subtraia <alguma coisa> desde <outra coisa>.
+Multiplique <alguma coisa> por <outra coisa>.
+Divida <alguma coisa> por <outra coisa>.
+```
+
 ## Operadores de concatenação de strings
+
+Para concatenar strings você deve utilizar algum dos seguintes operadores de concatenação:
+
+* junto com
+* seguido de
+* acompanhado de
+
+Exemplos:
+
+`Atribua o nome`` `<mark style="color:blue;">`junto com`</mark>` ``o sobrenome para uma string.`
+
+`Atribua "José "`` `<mark style="color:blue;">`seguido de`</mark>` ``"da Silva" para a string.`
 
