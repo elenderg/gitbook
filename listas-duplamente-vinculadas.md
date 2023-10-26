@@ -1,6 +1,6 @@
 # Listas duplamente vinculadas
 
-Uma lista encadeada ou lista ligada é uma [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura\_de\_dados) linear e dinâmica. Ela é composta por várias elementos que estão interligados através de [ponteiros](https://pt.wikipedia.org/wiki/Ponteiro\_\(programa%C3%A7%C3%A3o\)), ou seja, cada elemento da lista possui um ponteiro que aponta para o [endereço de memória](https://pt.wikipedia.org/wiki/Endere%C3%A7o\_\(mem%C3%B3ria\)) da próxima célula. Desse modo, os elementos da lista não precisam estar em posições contíguas da memória. Isso faz com que a estrutura se torne dinâmica, pois a qualquer momento, é possível incluir uma novo elemento na lista, bastando ajustar os ponteiros das células já existentes, de modo que a nova célula seja inserida na estrutura com êxito, na posição desejada pelo programador.
+Uma lista encadeada ou lista ligada é uma [estrutura de dados](https://pt.wikipedia.org/wiki/Estrutura\_de\_dados) linear e dinâmica. Ela é composta por vários elementos que estão interligados através de [ponteiros](https://pt.wikipedia.org/wiki/Ponteiro\_\(programa%C3%A7%C3%A3o\)), ou seja, cada elemento da lista possui um ponteiro que aponta para o [endereço de memória](https://pt.wikipedia.org/wiki/Endere%C3%A7o\_\(mem%C3%B3ria\)) da próxima célula. Desse modo, os elementos da lista não precisam estar em posições contíguas da memória. Isso faz com que a estrutura se torne dinâmica, pois a qualquer momento, é possível incluir uma novo elemento na lista, bastando ajustar os ponteiros das células já existentes, de modo que a nova célula seja inserida na estrutura com êxito, na posição desejada pelo programador.
 
 Você pode declarar listas usando a seguinte sintaxe:
 
@@ -9,7 +9,7 @@ A Bíblia é uma lista com uns versos.
 Um verso é uma lista com uma string.
 ```
 
-O compilador irá, internamente, converter as declarações acima, nas estruturas abaixo:
+O compilador irá, internamente, converter as declarações acima, no código abaixo:
 
 ```
 Um verso é um ponteiro para uma estrutura de versos.
@@ -24,7 +24,7 @@ Uns versos são uma lista com
   Um último verso.
 ```
 
-Na Biblioteca padrão existem diversas rotinas para trabalhar com listas.&#x20;
+Na Biblioteca padrão existem rotinas diversas para trabalhar com listas.&#x20;
 
 Exemplos:
 
@@ -53,7 +53,7 @@ Exemplo de utilização:
 
 A Biblioteca padrão também aceita o comando
 
-<mark style="color:blue;">`"Atribua a`</mark><mark style="color:blue;">**`quantidade de elementos`**</mark><mark style="color:blue;">`de uma lista para uma contagem."`</mark>
+<mark style="color:blue;">`"Atribua a`</mark><mark style="color:green;">`quantidade de elementos`</mark><mark style="color:blue;">`de uma lista para uma contagem."`</mark>
 
 {% hint style="info" %}
 _<mark style="color:red;">As listas são alocadas dinamicamente então é necessário efetuar a alocação e desalocação de memória das listas manualmente, de forma explícita.</mark>_
