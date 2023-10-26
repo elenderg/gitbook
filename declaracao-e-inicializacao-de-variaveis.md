@@ -36,12 +36,21 @@ As aspas duplas são um byte igual a 34.
 
 ## Inicialização de Variáveis Locais
 
-Variáveis locais podem ser declaradas e inicializadas dentro de rotinas e funções utilizando os artigos indefinidos **"um"** e **"uma"**.
+Variáveis locais podem ser declaradas e inicializadas dentro de rotinas e funções utilizando os artigos indefinidos:
+
+* **um**
+* **uns**
+* **uma**
+* **umas**
 
 Exemplos:
 
-`Atribua "João" para`` `**`uma`**` ``string.`
+```
+Atribua 0 para um número.
 
-`Adicione 1 para`` `**`uma`**` ``contagem.`
+Atribua "João" para uma string.
 
-`Converta o byte para`**`um`**`número.`
+Ative um sinalizador.
+
+Converta o byte para uma cifra hexadecimal.
+```
