@@ -9,3 +9,87 @@ A tartaruga possui três atributos:
 3. uma caneta, ela própria possuindo atributos tais como cor, espessura, e levantada ou abaixada.
 
 A tartaruga se movimenta com comandos que são relativos à sua própria posição, tais como "mova para frente 10 espaços" e "gire 90 graus para a direita". A caneta transportada pela tartaruga também pode ser controlada, ao habilitá-la, configurando sua cor, ou configurando sua espessura.&#x20;
+
+Exemplos de gráfico de tartaruga:
+
+<div data-full-width="false">
+
+<figure><img src=".gitbook/assets/Beautiful Bloom 1.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Beautiful Bloom 2.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Beautiful Bloom 3.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Color Wheel.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Escargot.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Figuras Geométricas.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Floco de Neve de Koch.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Florestas Fractais.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/HELLOWORLD.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/ILUSÃO1.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Ilusão2.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Ilusão3.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Ilusão4.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Paisagem Deserta.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Retângulos.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Retângulos2.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Triângulo de Sierpinski.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Triângulo de Sierpiński.PNG" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Video.mp4_snapshot_00.40.000.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/OSMOSIAN COMPASS.png" alt=""><figcaption></figcaption></figure>
+
+</div>
