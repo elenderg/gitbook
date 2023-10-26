@@ -24,7 +24,7 @@ Exemplos:
 
 `Atribua o comprimento`<mark style="color:blue;">`dividido por 2`</mark>` ``ao comprimento.`
 
-`Adicione 1 para o ponteiro.`
+`Atribua 1`` `<mark style="color:blue;">`mais`</mark>` ``o deslocamento para o ponteiro.`
 
 ## Operadores de concatenação de strings
 
