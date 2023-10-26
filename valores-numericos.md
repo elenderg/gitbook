@@ -21,7 +21,7 @@ Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada um
 
 ## Números inteiros
 
-Um "número" consiste em dígitos, com um sinal opcional, mas sem espaços ou outros símbolos. Exemplos:&#x20;
+Um "número" consiste em dígitos, que podem estar precedidos de um sinal positivo ou negativo. Exemplos:&#x20;
 
 <mark style="color:blue;">`0`</mark>
 
@@ -43,11 +43,9 @@ Um número é uma estrutura com
   Uma word de ordem superior sob o terceiro byte.
 ```
 
-Os números são armazenados de trás para frente (formato "[big-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))") devido à [extremidade (ordenação)](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\)) dos processadores x86.
+Os números são armazenados de trás para frente (de acordo com o formato "[big-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))") devido à [extremidade (ordenação)](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\)) dos processadores x86.
 
-`O menor número é -2147483648.`` `<mark style="color:blue;">`\ número de 4 bytes / 32 bits`</mark>
-
-`O maior número é 2147483647.`
+O intervalo de valores do tipo número começa no número -2147483648 chegando até ao número 2147483647.
 
 ## Números fracionários
 
