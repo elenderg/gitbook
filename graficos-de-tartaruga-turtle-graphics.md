@@ -14,19 +14,19 @@ Exemplos de gráfico de tartaruga:
 
 <div data-full-width="false">
 
-<figure><img src=".gitbook/assets/Beautiful Bloom 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Beautiful Bloom 1.png" alt=""><figcaption><p>Bloom 1</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Beautiful Bloom 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Beautiful Bloom 2.png" alt=""><figcaption><p>Bloom 2</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Beautiful Bloom 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Beautiful Bloom 3.png" alt=""><figcaption><p>Bloom 3</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Color Wheel.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Color Wheel.PNG" alt=""><figcaption><p>Color Wheel</p></figcaption></figure>
 
  
 
@@ -42,7 +42,7 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/Florestas Fractais.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Florestas Fractais.png" alt=""><figcaption><p>Floresta Fractal</p></figcaption></figure>
 
  
 
@@ -66,7 +66,7 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/Paisagem Deserta.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Paisagem Deserta.PNG" alt=""><figcaption><p>Paisagem Deserta</p></figcaption></figure>
 
  
 
@@ -90,6 +90,6 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/OSMOSIAN COMPASS.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/OSMOSIAN COMPASS.png" alt=""><figcaption><p>Rosa dos Ventos</p></figcaption></figure>
 
 </div>
