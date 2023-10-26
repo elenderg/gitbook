@@ -38,7 +38,7 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/Floco de Neve de Koch.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Floco de Neve de Koch.PNG" alt="" width="301"><figcaption><p>Floco de Neve de Koch</p></figcaption></figure>
 
  
 
