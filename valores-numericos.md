@@ -45,7 +45,7 @@ Um número é uma estrutura com
 
 Os números são armazenados de trás para frente (de acordo com o formato "[big-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))") devido à [extremidade (ordenação)](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\)) dos processadores x86.
 
-O intervalo de valores do tipo número começa no número -2147483648 chegando até ao número 2147483647.
+O intervalo de valores do tipo número começa no número -2147483648 chegando até ao número +2147483647.
 
 ## Números fracionários
 

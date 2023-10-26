@@ -9,6 +9,7 @@
 * [Laços e Desvios condicionais](desvios-condicionais.md)
 * [Listas duplamente vinculadas](listas-duplamente-vinculadas.md)
 * [Valores numéricos](valores-numericos.md)
+* [Operadores](operadores.md)
 * [Precedência e Ordem de avaliação de operadores](precedencia-e-ordem-de-avaliacao-de-operadores.md)
 * [Rotinas, Parâmetros e Funções](rotinas-parametros-e-funcoes.md)
 * [Strings e caracteres](strings-e-caracteres.md)
