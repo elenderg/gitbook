@@ -15,6 +15,7 @@
 * [Strings e caracteres](strings-e-caracteres.md)
 * [Trabalhando com Bibliotecas externas](trabalhando-com-bibliotecas-externas.md)
 * [Trabalhando com Instruções Hexadecimais](trabalhando-com-instrucoes-hexadecimais.md)
+* [Gráficos de Tartaruga (Turtle Graphics)](graficos-de-tartaruga-turtle-graphics.md)
 * [Cores](cores.md)
 * [Algoritmos de Exemplo](exemplos/README.md)
   * [Olá Mundo](exemplos/exemplos-aqui.md)
