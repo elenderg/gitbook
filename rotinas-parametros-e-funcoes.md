@@ -4,7 +4,7 @@ Para um melhor entendimento da linguagem iremos converter a função Javascript 
 
 {% code lineNumbers="true" %}
 ```javascript
-function Altera(numero) {
+function FazAlgumaCoisa(numero) {
   if(number < 0){
     return;
     }
@@ -21,7 +21,7 @@ function Altera(numero) {
 
 **Dados da função**
 
-**Nome:** Altera.
+**Nome:** FazAlgumaCoisa.
 
 **Parâmetros:** numero.
 
@@ -35,7 +35,7 @@ A rotina acima ficaria assim:
 
 {% code lineNumbers="true" %}
 ```textile
-Rotina para que se altere um número:
+Rotina para que se faça alguma coisa com um número:
   Se o número for menor do que 0, retorne.
   Atribua o número vezes 2 para um contador.
   Itere.
@@ -47,7 +47,7 @@ Rotina para que se altere um número:
 
 **Dados da rotina**
 
-**Nome:** Altere
+**Nome:** Faça alguma coisa
 
 **Parâmetros:** número
 
