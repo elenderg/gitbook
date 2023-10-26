@@ -6,7 +6,7 @@ A tartaruga possui três atributos:
 
 1. uma localização
 2. uma orientação
-3. uma caneta, ela própria possuindo atributos tais como cor, espessura, e levantada ou abaixada.
+3. uma caneta, ela própria possuindo atributos tais como cor, espessura e estado (levantada ou abaixada).
 
 A tartaruga se movimenta com comandos que são relativos à sua própria posição, tais como "mova para frente 10 espaços" e "gire 90 graus para a direita". A caneta transportada pela tartaruga também pode ser controlada, ao habilitá-la, configurando sua cor, ou configurando sua espessura.&#x20;
 
