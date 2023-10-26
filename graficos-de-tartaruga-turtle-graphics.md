@@ -30,11 +30,11 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/Escargot.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Escargot.PNG" alt=""><figcaption><p>Escargot</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Figuras Geométricas.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Figuras Geométricas.PNG" alt=""><figcaption><p>Formas Geométricas</p></figcaption></figure>
 
  
 
