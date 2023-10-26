@@ -19,13 +19,13 @@ As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. De
 
 Um "número" consiste em dígitos, com um sinal opcional, mas sem espaços ou outros símbolos. Exemplos:&#x20;
 
-`0`
+<mark style="color:blue;">`0`</mark>
 
-`123`
+<mark style="color:blue;">`123`</mark>
 
-`-2147483648`
+<mark style="color:blue;">`-2147483648`</mark>
 
-`+2147483647`
+<mark style="color:blue;">`+2147483647`</mark>
 
 A implementação de um número de 32 bits é a seguinte:
 
@@ -41,7 +41,7 @@ Um número é uma estrutura com
 
 Os números são armazenados de trás para frente (formato "[big-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))") devido à [extremidade (ordenação)](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\)) dos processadores x86.
 
-`O menor número é -2147483648.`` `<mark style="color:blue;">`\ número de 4 bytes/32 bits`</mark>
+`O menor número é -2147483648.`` `<mark style="color:blue;">`\ número de 4 bytes / 32 bits`</mark>
 
 `O maior número é 2147483647.`
 
@@ -51,11 +51,11 @@ Uma fração é um número seguido de uma barra e um número sem sinal.&#x20;
 
 Exemplos:&#x20;
 
-`335/113`
+<mark style="color:blue;">`335/113`</mark>
 
-`25946/9545`
+<mark style="color:blue;">`25946/9545`</mark>
 
-`-19601/13860`
+<mark style="color:blue;">`-19601/13860`</mark>
 
 A implementação de uma fração é a seguinte:
 

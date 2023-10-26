@@ -51,9 +51,13 @@ Exemplo de utilização:
 
 &#x20;<mark style="color:blue;">`Remova o verso desde os versos.`</mark>
 
-A Biblioteca padrão também contém rotinas para <mark style="color:blue;">`"Atribuir a quantidade de elementos de uma lista para uma contagem."`</mark>
+A Biblioteca padrão também aceita o comando
 
+<mark style="color:blue;">`"Atribua a`</mark><mark style="color:blue;">**`quantidade de elementos`**</mark><mark style="color:blue;">`de uma lista para uma contagem."`</mark>
+
+{% hint style="info" %}
 _<mark style="color:red;">As listas são alocadas dinamicamente então é necessário efetuar a alocação e desalocação de memória das listas manualmente, de forma explícita.</mark>_
+{% endhint %}
 
 Exemplos de alocação:
 
