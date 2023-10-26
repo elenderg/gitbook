@@ -11,7 +11,11 @@ A linguagem trabalha com os seguintes valores numéricos:
 
 ## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\)) (Palavras)
 
-As words têm 16 bits,  sendo números com sinal que vão de -32768 a +32767. Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada byte são armazenados na forma "[little-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))" (da esquerda para a direita),mas os bytes em si são armazenados inversamente (na forma "[big endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))").
+As words ocupam 2 bytes ou 16 bits de espaço.&#x20;
+
+Words são semelhantes a números inteiros, porém seu intervalo de valores vai de -32768 a +32767.&#x20;
+
+Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada um dos bytes da word são armazenados na forma "[little-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))" (da esquerda para a direita), porém os bytes em si são armazenados de forma inversa (ou seja, na forma "[big endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))").
 
 <figure><img src=".gitbook/assets/32bit-Endianess.svg.png" alt=""><figcaption><p>Demonstração do armazenamento Little-endian vs Big-endian</p></figcaption></figure>
 
