@@ -46,23 +46,23 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/HELLOWORLD.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/HELLOWORLD.PNG" alt=""><figcaption><p>Hello World</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/ILUSÃO1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ILUSÃO1.PNG" alt=""><figcaption><p>Cubos</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Ilusão2.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Ilusão2.PNG" alt=""><figcaption><p>Ilusão de òtica</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Ilusão3.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Ilusão3.PNG" alt=""><figcaption><p>Ilusão de Ótica</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Ilusão4.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Ilusão4.PNG" alt=""><figcaption><p>Ilusão de Ótica</p></figcaption></figure>
 
  
 
@@ -70,19 +70,19 @@ Exemplos de gráfico de tartaruga:
 
  
 
-<figure><img src=".gitbook/assets/Retângulos.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Retângulos.PNG" alt=""><figcaption><p>Retângulos</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Retângulos2.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Retângulos2.PNG" alt=""><figcaption><p>Retângulos</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Triângulo de Sierpinski.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Triângulo de Sierpinski.PNG" alt=""><figcaption><p>Triângulo de Sierpinski</p></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/Triângulo de Sierpiński.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Triângulo de Sierpiński.PNG" alt=""><figcaption><p>Olá Mundo</p></figcaption></figure>
 
  
 
