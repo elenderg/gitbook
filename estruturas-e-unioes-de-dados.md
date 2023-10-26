@@ -26,7 +26,7 @@ Exemplo:
 
 ```
 Um DEVMODE é uma estrutura com
-\ Contém informações sobre a inicialização de uma impressora ou MONITOR.
+\ Contém informações sobre a inicialização de uma impressora ou monitor de vídeo.
   32 bytes denominados dmDeviceName,
   Uma word denominada dmSpecVersion,
   Uma word denominada dmDriverVersion,
@@ -65,30 +65,30 @@ Um DEVMODE é uma estrutura com
 
 Uma união é um valor que pode ter várias representações ou formatos dentro da mesma posição na memória.
 
-É possível criar uma "[união](https://en.wikipedia.org/wiki/Union\_type)[ de dados](https://en.wikipedia.org/wiki/Union\_type)" utilizando a palavra-chave **sob**.
+É possível criar uma "[união](https://en.wikipedia.org/wiki/Union\_type)[ de dados](https://en.wikipedia.org/wiki/Union\_type)" utilizando a palavra-chave <mark style="color:red;">**sob**</mark>.
 
 Exemplo:
 
 ```
 Um número é uma estrutura com
-  Um primeiro byte, \ 1 byte = 8 bits
+  Um primeiro byte,
   Um segundo byte,
   Um terceiro byte,
-  Um quarto byte, \ 4 bytes = 32 bits
+  Um quarto byte,
   Uma word de ordem inferior sob o primeiro byte,
   Uma word de ordem superior sob o terceiro byte.
   
 Uma word é uma estrutura com
-  Um byte inicial [high byte] e \ 8 bits
-  Um byte final [low byte].    \ + 8 bits  = 16 bits
+  Um byte inicial e 
+  Um byte final.
 ```
 
-A estrutura `número`, será armazenada da seguinte forma:\
+A estrutura <mark style="color:blue;">`número`</mark>, será armazenada da seguinte forma:\
 
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Conforme visto, cada `word`ficará assim:
+Conforme a implementação dada acima, cada <mark style="color:blue;">`word`</mark> será armazenada da seguinte forma:
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
