@@ -98,6 +98,10 @@ Exemplos:
 
 <mark style="color:blue;">`$B0DEFE10`</mark>
 
+<mark style="color:blue;">`$AD0BE`</mark>
+
+<mark style="color:blue;">`$0CAF0F0`</mark>
+
 ## Ponteiros
 
 Um ponteiro é uma estrutura com 4 bytes, funcionando de forma similar a um número, no sentido que é possível efetuar operações aritméticas comuns (soma, subtração, etc).
@@ -110,4 +114,4 @@ Existem 2 valores booleanos:
 
 <mark style="color:blue;">`sim`</mark> (valor 1)  e  <mark style="color:blue;">`não`</mark> (valor 0).
 
-Eles têm 32 bits, mas apenas o bit mais à direita é usado. Na verdade, é o oitavo da esquerda, mas você pode pensar nele como o mais à direita. O compilador interpreta 0 como “não” e 1 como “sim”.  Você pode desativar um sinalizador para indicar "não" ou ativar um sinalizador para indicar "sim".
+Eles têm 32 bits, mas apenas o bit mais à direita é usado. Na verdade, é o oitavo bit a partir da esquerda, mas você pode pensar nele como o mais à direita. O compilador interpreta 0 como “não” e 1 como “sim”.  Você pode desativar um sinalizador para indicar "não" ou ativar um sinalizador para indicar "sim".
