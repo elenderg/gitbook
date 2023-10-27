@@ -86,9 +86,9 @@ Uma word é uma estrutura com
 A estrutura <mark style="color:blue;">`número`</mark>, será armazenada da seguinte forma:\
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Conforme a implementação dada acima, cada <mark style="color:blue;">`word`</mark> será armazenada da seguinte forma:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

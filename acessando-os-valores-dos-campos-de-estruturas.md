@@ -7,7 +7,7 @@ Para obter e modificar algum o valor de algum campo de uma estrutura, utiliza al
 * **desta**
 * **destas**
 
-Digamos que tenhamos a estrutura a seguir:
+Por exemplo, na estrutura a seguir:
 
 ```
 Uma pessoa é uma estrutura com
