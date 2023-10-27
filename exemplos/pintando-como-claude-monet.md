@@ -1,6 +1,6 @@
 # Pintando como Claude Monet
 
-O programa abaixo utiliza a API do Google Imagens para transformar as thumbnails em pinturas que replicam o estilo de Claude Monet.
+O programa abaixo utiliza a API do Google para transformar as thumbnails das imagens em pinturas que replicam o estilo de Claude Monet.
 
 ```
 A caixa de status é uma estrutura com 

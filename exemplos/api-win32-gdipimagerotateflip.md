@@ -1,6 +1,6 @@
 # API Win32 - GdipImageRotateFlip
 
-Observação: para executar este programa salve a imagem abaixo e ajuste o path onde for necessário.
+Observação: para executar este programa salve a imagem abaixo ( ou outra de sua escolha) e ajuste o path onde for necessário.
 
 ![](../.gitbook/assets/lobo.png)&#x20;
 
