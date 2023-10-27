@@ -143,7 +143,7 @@ Perceba que o parâmetros <mark style="color:purple;">**"número"**</mark> bem c
 
 ## Funções de retorno booleano
 
-A linguagem trabalha com o conceito de "funções decisórias".
+A linguagem trabalha com o conceito de "funções deliberativas".
 
 Para criar uma função decisória a sintaxe utilize a seguinte sintaxe:
 
@@ -157,11 +157,11 @@ Para criar uma função decisória a sintaxe utilize a seguinte sintaxe:
 
 <mark style="color:green;">"Diga sim"</mark> equivale a um <mark style="color:green;">"return true"</mark> e <mark style="color:red;">"Diga não"</mark> é o equivalente de <mark style="color:red;">"return false"</mark>.
 
-As funções decisórias costumam ser utilizadas dentro de declarações condicionais.
+As funções deliberativas costumam ser utilizadas dentro de declarações condicionais.
 
 Por exemplo:
 
-`Se o número`` `<mark style="color:red;">**`for`**</mark>` ``negativo, retorne.`
+_**`Se o número`****` `**<mark style="color:red;">**`for`**</mark>**` `****`negativo, retorne.`**_
 
 {% hint style="info" %}
 Os verbos ser/estar (e suas respectivas conjugações) são tratados como sinônimos pelo compilador.
