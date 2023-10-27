@@ -59,7 +59,7 @@ Rotina para que se faça alguma coisa com um número:
 
 Para criar uma função booleana a sintaxe utilize a seguinte sintaxe:
 
-> **Rotina para que se determine se** um número _é_ negativo:&#x20;
+> **Para que se determine se** um número _é_ negativo:&#x20;
 >
 > &#x20; Se o número for menor do que 0, <mark style="color:green;">diga sim.</mark>&#x20;
 >
@@ -68,3 +68,29 @@ Para criar uma função booleana a sintaxe utilize a seguinte sintaxe:
 > &#x20; <mark style="color:red;">Diga não.</mark>
 
 <mark style="color:green;">"Diga sim"</mark> equivale a um <mark style="color:green;">"return true"</mark> e <mark style="color:red;">"Diga não"</mark> é o equivalente de <mark style="color:red;">"return false"</mark>.
+
+Perceba que ao invés da keyword _**function**_ nós utilizamos _**para que se** (o termo "Rotina" é opcional)._
+
+A sinatxe básica é a seguinte:
+
+<mark style="color:blue;">`<para que se>`</mark><mark style="color:green;">`<nome da rotina>`</mark><mark style="color:red;">`:`</mark>
+
+O nome da rotina começa após o 1º **"se"** (em caso de rotinas) ou após **"determine se"** (no caso das funções booleanas).&#x20;
+
+Parâmetros são indicados pelos artigos indefinidos:&#x20;
+
+* **um**
+* **uns**
+* **uma**
+* **umas**
+
+Exemplos:
+
+<mark style="color:blue;">`Rotina para que se`</mark> <mark style="color:green;">`adicione`</mark> <mark style="color:purple;">`uma`</mark>` ``cor`` `<mark style="color:red;">`e`</mark> <mark style="color:purple;">`um`</mark>` ``rótulo`` `<mark style="color:red;">`para`</mark>` `<mark style="color:purple;">`um`</mark>` ``menu:`
+
+**Nome da rotina:** adicione
+
+**Parâmetros:** cor, rótulo, menu
+
+**Preposições e conjunções:** e, para.
+
