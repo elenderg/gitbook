@@ -1,6 +1,6 @@
 # Rotinas, Parâmetros e Funções
 
-A sinatxe básica para declaração de uma rotina é a seguinte:
+A sintaxe básica para declaração de uma rotina é a seguinte:
 
 <mark style="color:blue;">`Rotina para que se`</mark><mark style="color:green;">`<nome da rotina>`</mark><mark style="color:red;">`:`</mark>
 
