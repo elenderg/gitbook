@@ -113,8 +113,6 @@ function FazAlgumaCoisa(numero) {
 
 _<mark style="color:blue;">A rotina acima ficaria assim:</mark>_
 
-
-
 > **Para que se** _faça alguma coisa_ com <mark style="color:purple;">**um**</mark> número:&#x20;
 >
 > &#x20; Se <mark style="color:purple;">**o**</mark> número for menor do que 0, _<mark style="color:blue;">**retorne**</mark>_.&#x20;
@@ -145,7 +143,9 @@ Perceba que o parâmetros <mark style="color:purple;">**"número"**</mark> bem c
 
 ## Funções de retorno booleano
 
-Para criar uma função booleana a sintaxe utilize a seguinte sintaxe:
+A linguagem trabalha com o conceito de "funções decisórias".
+
+Para criar uma função decisória a sintaxe utilize a seguinte sintaxe:
 
 > **Para que se determine se** <mark style="color:purple;">**um**</mark> número _<mark style="color:red;">**é**</mark>_ negativo:&#x20;
 >
@@ -157,7 +157,7 @@ Para criar uma função booleana a sintaxe utilize a seguinte sintaxe:
 
 <mark style="color:green;">"Diga sim"</mark> equivale a um <mark style="color:green;">"return true"</mark> e <mark style="color:red;">"Diga não"</mark> é o equivalente de <mark style="color:red;">"return false"</mark>.
 
-Funções booleanas são utilizadas dentro de declarações condicionais.
+As funções decisórias costumam ser utilizadas dentro de declarações condicionais.
 
 Por exemplo:
 
