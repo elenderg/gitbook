@@ -2,6 +2,7 @@
 
 A linguagem trabalha com os seguintes valores numéricos:
 
+* [Bytes](strings-e-caracteres.md#caracteres)
 * [Números inteiros;](valores-numericos.md#numeros-inteiros)
 * [Números fracionários;](valores-numericos.md#numeros-fracionarios)
 * [Números mistos;](valores-numericos.md#numeros-mistos)
@@ -9,11 +10,19 @@ A linguagem trabalha com os seguintes valores numéricos:
 * [Ponteiros;](valores-numericos.md#ponteiros)
 * [Valores booleanos.](valores-numericos.md#valores-booleanos)
 
+## [Bytes](https://en.wikipedia.org/wiki/Byte)
+
+Bytes são valores numéricos que ocupam 8 [bits ](https://en.wikipedia.org/wiki/Bit)de memória. Bytes e [estruturas](estruturas-e-unioes-de-dados.md) são um [tipo de dado primitivo](https://en.wikipedia.org/wiki/Primitive\_data\_type) a partir do qual são construídos todos os outros tipos da linguagem.
+
+Seu intervalo de valores vai de 0 a 255.&#x20;
+
+A Biblioteca padrão possui rotinas para efetuar operações aritméticas comuns em bytes (e nos demais tipos numéricos abaixo), tais como soma, subtração, multiplicação e divisões inteiras.&#x20;
+
 ## [Words](https://pt.wikipedia.org/wiki/Palavra\_\(ci%C3%AAncia\_da\_computa%C3%A7%C3%A3o\)) (Palavras)
 
-As words ocupam 2 bytes ou 16 bits de espaço.&#x20;
+As words são compostas por 2 bytes e, consequentemente, ocupam 16 bits de espaço em memória.&#x20;
 
-Words são semelhantes a números inteiros, porém seu intervalo de valores vai de -32768 a +32767.&#x20;
+Words são funcionam de forma similar a números inteiros, porém seu intervalo de valores vai de -32768 a +32767.&#x20;
 
 Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada um dos bytes da word são armazenados na forma "[little-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))" (da esquerda para a direita), porém os bytes em si são armazenados de forma inversa (ou seja, na forma "[big endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))").
 

@@ -16,7 +16,7 @@ Abaixo temos a implementação do tipo caractere:
 
 Um byte são 8 bits sequenciais de dados binários. São  números sem sinal, com valores variando de 0 a 255.
 
-
+Como os caracteres nada mais são do que um tipo derivado do tipo byte, é possível utilizar as mesmas operações aritméticas comuns (soma, subtração, etc).
 
 ## Strings
 
