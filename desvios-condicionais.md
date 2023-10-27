@@ -12,7 +12,7 @@ O bloco de declarações é iniciado após a 1ª vírgula. As demais declaraçõ
 
 ## Laços e iterações
 
-Exise apenas um tipo de laço, equivalente a um <mark style="color:orange;">`while(true)`</mark> de outras linguagenss:
+Exise apenas um tipo de laço, equivalente a um <mark style="color:orange;">`while(true)`</mark> de outras linguagens:
 
 Exemplo:
 
