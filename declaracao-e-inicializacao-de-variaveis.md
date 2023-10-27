@@ -36,7 +36,7 @@ As aspas duplas são um byte igual a 34.
 
 ## Inicialização de Variáveis Locais
 
-Variáveis locais podem ser declaradas e inicializadas dentro de rotinas e funções utilizando os artigos indefinidos:
+Variáveis locais podem ser declaradas e inicializadas dentro de rotinas e funções. Para isto basta utilizar algum dos artigos indefinidos a seguir:
 
 * **um**
 * **uns**
