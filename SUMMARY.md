@@ -6,6 +6,7 @@
 * [Comentários](comentarios.md)
 * [Declaração e inicialização de variáveis](declaracao-e-inicializacao-de-variaveis.md)
 * [Estruturas e Uniões de dados](estruturas-e-unioes-de-dados.md)
+* [Acessando os valores dos campos de estruturas](acessando-os-valores-dos-campos-de-estruturas.md)
 * [Laços e Desvios condicionais](desvios-condicionais.md)
 * [Listas duplamente vinculadas](listas-duplamente-vinculadas.md)
 * [Valores numéricos](valores-numericos.md)
