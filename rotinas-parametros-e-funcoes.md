@@ -166,3 +166,25 @@ _**`Se o número`****` `**<mark style="color:red;">**`for`**</mark>**` `****`neg
 {% hint style="info" %}
 Os verbos ser/estar (e suas respectivas conjugações) são tratados como sinônimos pelo compilador.
 {% endhint %}
+
+## Regras gerais para nomes de rotinas e funções
+
+* O nome da rotina começa após o _"para que se"_ (ou após o _"para que se determine se"_ no caso de funções deliberativas).
+* Artigos indefinidos indicam um novo parâmetro. Exemplos:
+  * _um número,_
+  * _uns vértices,_
+  * _uma string,_
+  * _umas formas_
+* Parênteses podem ser utilizados para "escapar" strings, parâmetros ou indicar rotinas de um mesmo grupo. Exemplo:
+  * _Rotina para que se execute um evento (clique - botão direito):_&#x20;
+  * _Rotina para que se execute um evento (clique - botão esquerdo):_&#x20;
+  * _Rotina para que se execute um evento (clique duplo):_&#x20;
+  * _Rotina para que se execute um evento (atualização de tela):_&#x20;
+* Preposições e artigos definidos são permitidos nos nomes das rotinas (porém não exercem nenhuma função especial além de tornar o nome da função mais inteligível). Exemplos:
+  * _Rotina para que se execute **o** programa:_
+  * _Rotina para que se ajuste **a** caixa de diálogo:_
+  * _Rotina para que se adicione um botão **para a** caixa de diálogo **usando** uma string:_
+
+{% hint style="info" %}
+Perceba nas rotinas logo acima que os artigos definidos **não** indicam um parâmetro.&#x20;
+{% endhint %}
