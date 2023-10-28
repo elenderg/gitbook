@@ -21,7 +21,7 @@ A aba atual é uma aba.
 As aspas duplas são um caractere.
 ```
 
-A estrutura para declaração de variáveis e inicializaçãp é a seguinte:
+A estrutura para declaração de variáveis e inicialização é a seguinte:
 
 <mark style="color:blue;">**\<artigo definido>**</mark>** **<mark style="color:purple;">**\<nome>**</mark>** é|são **<mark style="color:red;">**\<artigo indefinido>**</mark>** **<mark style="color:green;">**\<tipo>**</mark>** igual a **<mark style="background-color:orange;">**\<literal>**</mark>.
 
