@@ -1,6 +1,8 @@
 # Estruturas e Uniões de dados
 
-Uma [estrutura](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) é um tipo de dado composto, cujo interior pode conter uma dados de tipos distintos. Esses dados são denominadas "campos" ou "membros".&#x20;
+Em português Puro,  [estruturas](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) são [estruturas de dados](https://pt.wikipedia.org/wiki/Estrutura\_de\_dados) que permitem que você defina um novo [tipo de dados](https://pt.wikipedia.org/wiki/Tipo\_de\_dado) personalizado que contém um conjunto de campos (ou membros), onde cada campo pode ter um tipo de dado diferente. Essa é uma parte fundamental da linguagem, pois permite criar estruturas de dados complexas para representar informações de maneira organizada. Aqui estão alguns detalhes adicionais
+
+**Declaração de Estruturas:** Para declarar uma estrutura, você deve utilizar as palavra-chaves `estrutura` `com`seguido pela lista de campos do registro separados por vírgulas ou "e"
 
 Exemplo:&#x20;
 

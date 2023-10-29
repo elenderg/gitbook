@@ -1,5 +1,10 @@
 # Declaração e inicialização de variáveis
 
+O escopo se refere à visibilidade de uma variável, ou seja, onde uma variável pode ser usada dentro de um programa. Existem dois principais escopos em Português Puro:
+
+* **Escopo Global:** As variáveis declaradas fora de qualquer rotinaou função têm escopo global. Elas são visíveis em todo o programa, ou seja, podem ser acessadas de qualquer lugar.
+* **Escopo Local:** As variáveis declaradas dentro de uma rotina ou função têm escopo local. Elas só são visíveis dentro dessa rotina ou função.
+
 ## Declaração de Variáveis Globais
 
 Variáveis globais são declaradas com os seguintes artigos definidos:
@@ -54,3 +59,4 @@ Ative um sinalizador.
 
 Converta o byte para uma cifra hexadecimal.
 ```
+

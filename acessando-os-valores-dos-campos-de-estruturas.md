@@ -1,6 +1,6 @@
 # Acessando os valores dos campos de estruturas
 
-Para obter e modificar algum o valor de algum campo de uma estrutura, utiliza algumas das contrações abaixo:
+Depois de definir um novo tipo de estrutura, você pode criar variáveis desse tipo e acessar seus campos. Para obter e modificar algum o valor de algum campo de uma estrutura, utiliza algumas das contrações abaixo:
 
 * **deste**
 * **destes**
@@ -9,12 +9,14 @@ Para obter e modificar algum o valor de algum campo de uma estrutura, utiliza al
 
 Por exemplo, na estrutura a seguir:
 
+{% code lineNumbers="true" %}
 ```
 Uma pessoa é uma estrutura com
   Um nome,
   Um sobrenome e
   Uma idade.
 ```
+{% endcode %}
 
 &#x20;Poderíamos alterar os valores dos membros individuais desta estrutura da seguinte forma:
 
