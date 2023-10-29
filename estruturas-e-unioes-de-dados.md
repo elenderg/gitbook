@@ -1,6 +1,6 @@
 # Estruturas e Uniões de dados
 
-Uma [estrutura](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) é um tipo de dado composto, cujo interior abriga uma quantidade qualquer de variáveis denominadas "campos" ou "membros".&#x20;
+Uma [estrutura](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) é um tipo de dado composto, cujo interior pode conter uma dados de tipos distintos. Esses dados são denominadas "campos" ou "membros".&#x20;
 
 Exemplo:&#x20;
 
