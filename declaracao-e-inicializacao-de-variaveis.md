@@ -16,7 +16,7 @@ Variáveis globais são declaradas com os seguintes artigos definidos:
 
 A estrutura para declaração de variáveis é a seguinte:
 
-<mark style="color:blue;">**\<artigo definido>**</mark>** **<mark style="color:purple;">**\<nome>**</mark>** é/são **<mark style="color:red;">**\<artigo indefinido>**</mark>** **<mark style="color:green;">**\<tipo>**</mark>.
+<mark style="color:blue;">**\<artigo definido>**</mark>** **<mark style="color:purple;">**\<nome da variável>**</mark>** <é/são> **<mark style="color:red;">**\<artigo indefinido>**</mark>** **<mark style="color:green;">**\<tipo>**</mark>.
 
 Exemplos:
 
