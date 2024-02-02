@@ -1,6 +1,10 @@
 # Estruturas e Uniões de dados
 
-Em português Puro,  [estruturas](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) são [estruturas de dados](https://pt.wikipedia.org/wiki/Estrutura\_de\_dados) que permitem que você defina um novo [tipo de dados](https://pt.wikipedia.org/wiki/Tipo\_de\_dado) personalizado que contém um conjunto de campos (ou membros), onde cada campo pode ter um tipo de dado diferente. Essa é uma parte fundamental da linguagem, pois permite criar estruturas de dados complexas para representar informações de maneira organizada. Aqui estão alguns detalhes adicionais
+Uma estrutura ou registro é um [tipo](https://wiki.freepascal.org/Type) de dados altamente estruturado. Eles são amplamente usados  para agrupar itens relacionados.
+
+Em português Puro,  [estruturas](https://en.wikipedia.org/wiki/Record\_\(computer\_science\)) são [estruturas de dados](https://pt.wikipedia.org/wiki/Estrutura\_de\_dados) que permitem que você defina um novo [tipo de dados](https://pt.wikipedia.org/wiki/Tipo\_de\_dado) personalizado que contém um conjunto de campos (ou membros), onde cada campo pode ter um tipo de dado diferente. Essa é uma parte fundamental da linguagem, pois permite criar estruturas de dados complexas para representar informações de maneira organizada. Aqui estão alguns detalhes adicionais.
+
+Enquanto estruturas de dados simples como [vetores](https://wiki.freepascal.org/Array) or conjuntos consistem de elementos do mesmo tipo, um registro pode consistir de elementos de diferentes tipos e pode ser muito complexo. Cada parte separada de um registro é chamada de _campo_.
 
 **Declaração de Estruturas:** Para declarar uma estrutura, você deve utilizar as palavra-chaves `estrutura` `com`seguido pela lista de campos do registro separados por vírgulas ou "e"
 
@@ -12,7 +16,7 @@ Uma string é uma estrutura com
   Um caractere final.
 ```
 
-Uma estrutura vazia ocupa 0 bits na memória, mas você pode definir estruturas de qualquer comprimento adicionando "campos" ou "membros" ao protótipo da estrutura. Esses campos podem ser de qualquer tipo.
+Uma estrutura vazia ocupa **0 bits** na memória, mas você pode definir estruturas de qualquer comprimento adicionando "campos" ou "membros" ao protótipo da estrutura. Esses campos podem ser de qualquer tipo.
 
 O tamanho da estrutura é, em via de regra, igual à soma do tamanho de seus campos.
 
@@ -22,7 +26,7 @@ Não é necessário declarar um novo tipo de dado para cada membro de uma estrut
 
 A sintaxe geral é:
 
-`<artigo indefinido> <tipo>`` `<mark style="color:blue;">`denominado`</mark>` ``<nome>`
+`<artigo indefinido> <tipo>`` `<mark style="color:blue;">`denominado`</mark>` ``<nome>.`
 
 Exemplo:
 
