@@ -4,57 +4,44 @@ Observação: para executar este programa salve a imagem abaixo ( ou outra de su
 
 ![](../.gitbook/assets/lobo.png)&#x20;
 
-```
-Rotina para que se execute o programa:
-  Carregue as bibliotecas padrão do sistema. 
+<pre><code><strong>Rotina para que se execute o programa:
+</strong>  Carregue as bibliotecas padrão do sistema. 
   Limpe a tela usando a cor eigengrau.
-  Carregue uma primeira imagem usando "C:\lobo.png".
-  Carregue uma segunda imagem usando "C:\lobo.png".
-  Carregue uma terceira imagem usando "C:\lobo.png".
-  Carregue uma quarta imagem usando "C:\lobo.png".
-  Carregue uma quinta imagem usando "C:\lobo.png".
-  Carregue uma sexta imagem usando "C:\lobo.png".
-  Carregue uma sétima imagem usando "C:\lobo.png".
-  Carregue uma oitava imagem usando "C:\lobo.png".
+  Extraia o endereço da pasta deste módulo desde o endereço completo deste módulo.
+  Atribua o endereço da pasta deste módulo seguido de "lobo.png" para um endereço completo.
+  \ AJUSTE O PATH CONFORME NECESSÁRIO 
+  Atribua o endereço completo para uma string denominada path.
+  Carregue uma primeira imagem usando o path. 
+  Carregue uma segunda imagem usando o path.
+  Carregue uma terceira imagem usando o path.
+  Carregue uma quarta imagem usando o path.
+  Carregue uma quinta imagem usando o path.
+  Carregue uma sexta imagem usando o path.
+  Carregue uma sétima imagem usando o path.
+  Carregue uma oitava imagem usando o path.
   Mova a primeira imagem usando 50 pixels e 100 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta primeira imagem 
-    e o valor da enumeração RotateNoneFlipNone.
-  Pinte a primeira imagem.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta primeira imagem e o Rotate90FlipNone. \ Rotate90FlipNone/Rotate270FlipXY
+  Pinte a primeira imagem. \ 
   Mova a segunda imagem usando 400 pixels e 100 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta segunda imagem 
-    e o valor da enumeração Rotate90FlipX.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta segunda imagem e o Rotate90FlipX. \ Rotate90FlipX/Rotate270FlipY
   Pinte a segunda imagem.
   Mova a terceira imagem usando 800 pixels e 100 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta terceira imagem 
-    e o valor da enumeração RotateNoneFlipY.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta terceira imagem e o RotateNoneFlipY. \ RotateNoneFlipY/Rotate180FlipX
   Pinte a terceira imagem.
   Mova a quarta imagem usando 1200 pixels e 100 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta quarta imagem 
-    e o valor da enumeração RotateNoneFlipXY.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta quarta imagem e o RotateNoneFlipXY. \ RotateNoneFlipXY/Rotate180FlipNone
   Pinte a quarta imagem.
   Mova a quinta imagem usando 50 pixels e 500 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta quinta imagem 
-    e o valor da enumeração Rotate90FlipY.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta quinta imagem e o Rotate90FlipY. \ Rotate90FlipY/Rotate270FlipX
   Pinte a quinta imagem.
   Mova a sexta imagem usando 400 pixels e 500 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta sexta imagem 
-    e o valor da enumeração Rotate90FlipXY.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta sexta imagem e o Rotate90FlipXY. \ Rotate90FlipXY/Rotate270FlipNone
   Pinte a sexta imagem.
   Mova a sétima imagem usando 800 pixels e 500 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta sétima imagem 
-    e o valor da enumeração RotateNoneFlipNone.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta sétima imagem e o RotateNoneFlipNone. \ RotateNoneFlipNone/Rotate180FlipXY
   Pinte a sétima imagem.
   Mova a oitava imagem usando 1200 pixels e 500 pixels.
-  Processe "gdiplus.dll" "GdipImageRotateFlip" com 
-    o gpBitmap desta oitava imagem 
-    e o valor da enumeração RotateNoneFlipX.
+  Processe "gdiplus.dll" "GdipImageRotateFlip" com o gpBitmap desta oitava imagem e o RotateNoneFlipX. \ RotateNoneFlipX/Rotate180FlipY
   Pinte a oitava imagem.
   Atribua 24 pixels à altura desta fonte padrão.
   Posicione os rótulos.
@@ -106,66 +93,50 @@ Rotina para que se posicione os rótulos:
   Posicione o oitavo rótulo.
 
 Rotina para que se posicione o primeiro rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 50 pixels para a coordenada X1 deste primeiro rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 170 pixels para a coordenada Y1 deste primeiro rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 50 pixels para a coordenada X1 deste primeiro rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 170 pixels para a coordenada Y1 deste primeiro rótulo.
   Atribua o primeiro nome ao nome deste primeiro rótulo.
   Exiba o primeiro rótulo.
 
 Rotina para que se posicione o segundo rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 400 pixels para a coordenada X1 deste segundo rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 170 pixels para a coordenada Y1 deste segundo rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 400 pixels para a coordenada X1 deste segundo rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 170 pixels para a coordenada Y1 deste segundo rótulo.
   Atribua o segundo nome ao nome deste segundo rótulo.
   Exiba o segundo rótulo.
 
 Rotina para que se posicione o terceiro rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 800 pixels para a coordenada X1 deste terceiro rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 170 pixels para a coordenada Y1 deste terceiro rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 800 pixels para a coordenada X1 deste terceiro rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 170 pixels para a coordenada Y1 deste terceiro rótulo.
   Atribua o terceiro nome ao nome deste terceiro rótulo.
   Exiba o terceiro rótulo.
 
 Rotina para que se posicione o quarto rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 1200 pixels para a coordenada X1 deste quarto rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 170 pixels para a coordenada Y1 deste quarto rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 1200 pixels para a coordenada X1 deste quarto rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 170 pixels para a coordenada Y1 deste quarto rótulo.
   Atribua o quarto nome ao nome deste quarto rótulo.
   Exiba o quarto rótulo.
 
 Rotina para que se posicione o quinto rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 50 pixels para a coordenada X1 deste quinto rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 970 pixels para a coordenada Y1 deste quinto rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 50 pixels para a coordenada X1 deste quinto rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 970 pixels para a coordenada Y1 deste quinto rótulo.
   Atribua o quinto nome ao nome deste quinto rótulo.
   Exiba o quinto rótulo.
 
 Rotina para que se posicione o sexto rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 400 pixels para a coordenada X1 deste sexto rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 970 pixels para a coordenada Y1 deste sexto rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 400 pixels para a coordenada X1 deste sexto rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 970 pixels para a coordenada Y1 deste sexto rótulo.
   Atribua o sexto nome ao nome deste sexto rótulo.
   Exiba o sexto rótulo.
 
 Rotina para que se posicione o sétimo rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 800 pixels para a coordenada X1 deste sétimo rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 970 pixels para a coordenada Y1 deste sétimo rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 800 pixels para a coordenada X1 deste sétimo rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 970 pixels para a coordenada Y1 deste sétimo rótulo.
   Atribua o sétimo nome ao nome deste sétimo rótulo.
   Exiba o sétimo rótulo.
 
 Rotina para que se posicione o oitavo rótulo:
-  Atribua a coordenada X1 desta caixa desta tela 
-  mais 1200 pixels para a coordenada X1 deste oitavo rótulo.
-  Atribua a coordenada Y1 desta caixa desta tela 
-  mais 970 pixels para a coordenada Y1 deste oitavo rótulo.
+  Atribua a coordenada X1 desta caixa desta tela mais 1200 pixels para a coordenada X1 deste oitavo rótulo.
+  Atribua a coordenada Y1 desta caixa desta tela mais 970 pixels para a coordenada Y1 deste oitavo rótulo.
   Atribua o oitavo nome ao nome deste oitavo rótulo.
   Exiba o oitavo rótulo.
 
@@ -179,32 +150,32 @@ O sexto rótulo é um rótulo.
 O sétimo rótulo é um rótulo.
 O oitavo rótulo é um rótulo.
 
-O valor da enumeração RotateNoneFlipNone é um número igual a 0.
-O valor da enumeração Rotate180FlipXY é um número igual a 0.
-O valor da enumeração RotateNoneFlipNone é um número igual a 1.
-O valor da enumeração Rotate270FlipXY é um número igual a 1.
-O valor da enumeração Rotate180FlipNone é um número igual a 2.
-O valor da enumeração RotateNoneFlipXY é um número igual a 2.
-O valor da enumeração Rotate270FlipNone é um número igual a 3.
-O valor da enumeração Rotate90FlipXY é um número igual a 3.
-O valor da enumeração RotateNoneFlipX é  um número igual a 4.
-O valor da enumeração Rotate180FlipY é um número igual a 4.
-O valor da enumeração Rotate90FlipX é um número igual a 5.
-O valor da enumeração Rotate270FlipY é um número igual a 5.
-O valor da enumeração Rotate180FlipX é um número igual a 6.
-O valor da enumeração RotateNoneFlipY é um número igual a 6.
-O valor da enumeração Rotate270FlipX é um número igual a 7.
-O valor da enumeração Rotate90FlipY é um número igual a 7.
+O RotateNoneFlipNone é um número igual a 0.
+O Rotate180FlipXY é um número igual a 0.
+O Rotate90FlipNone é um número igual a 1.
+O Rotate270FlipXY é um número igual a 1.
+O Rotate180FlipNone é um número igual a 2.
+O RotateNoneFlipXY é um número igual a 2.
+O Rotate270FlipNone é um número igual a 3.
+O Rotate90FlipXY é um número igual a 3.
+O RotateNoneFlipX é  um número igual a 4.
+O Rotate180FlipY é um número igual a 4.
+O Rotate90FlipX é um número igual a 5.
+O Rotate270FlipY é um número igual a 5.
+O Rotate180FlipX é um número igual a 6.
+O RotateNoneFlipY é um número igual a 6.
+O Rotate270FlipX é um número igual a 7.
+O Rotate90FlipY é um número igual a 7.
 
-O primeiro nome é uma string igual a "valor da enumeração RotateNoneFlipNone/Rotate270FlipXY".
-O segundo nome é uma string igual a "valor da enumeração Rotate90FlipX/Rotate270FlipY".
-O terceiro nome é uma string igual a "valor da enumeração RotateNoneFlipY/Rotate180FlipX".
-O quarto nome é uma string igual a "valor da enumeração RotateNoneFlipXY/Rotate180FlipNone".
-O quinto nome é uma string igual a "valor da enumeração Rotate90FlipY/Rotate270FlipX".
-O sexto nome é uma string igual a "valor da enumeração Rotate90FlipXY/Rotate270FlipNone".
-O sétimo nome é uma string igual a "valor da enumeração RotateNoneFlipNone/Rotate180FlipXY".
-O oitavo nome é uma string igual a "valor da enumeração RotateNoneFlipX/Rotate180FlipY".
-```
+O primeiro nome é uma string igual a "Rotate90FlipNone/Rotate270FlipXY".
+O segundo nome é uma string igual a "Rotate90FlipX/Rotate270FlipY".
+O terceiro nome é uma string igual a "RotateNoneFlipY/Rotate180FlipX".
+O quarto nome é uma string igual a "RotateNoneFlipXY/Rotate180FlipNone".
+O quinto nome é uma string igual a "Rotate90FlipY/Rotate270FlipX".
+O sexto nome é uma string igual a "Rotate90FlipXY/Rotate270FlipNone".
+O sétimo nome é uma string igual a "RotateNoneFlipNone/Rotate180FlipXY".
+O oitavo nome é uma string igual a "RotateNoneFlipX/Rotate180FlipY".
+</code></pre>
 
 O resultado do programa é este:
 
