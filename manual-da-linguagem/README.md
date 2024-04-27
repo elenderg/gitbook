@@ -14,7 +14,7 @@ layout:
 
 # Características da linguagem
 
-[**Estratégia de avaliação**](https://pt.wikipedia.org/wiki/Estrat%C3%A9gia\_de\_avalia%C3%A7%C3%A3o)**:** A passagem de argumentos é [**por Referência**](https://en.wikipedia.org/wiki/Evaluation\_strategy#Call\_by\_reference)**.**
+[**Estratégia de avaliação**](https://pt.wikipedia.org/wiki/Estrat%C3%A9gia\_de\_avalia%C3%A7%C3%A3o)**:** A passagem de argumentos/parâmetros é [**por referência**](https://en.wikipedia.org/wiki/Evaluation\_strategy#Call\_by\_reference)**.**
 
 ## [Sistema de tipos](https://pt.wikipedia.org/wiki/Sistema\_de\_tipos)
 
