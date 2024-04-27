@@ -10,4 +10,4 @@ Comentários de linha são iniciados por uma barra invertida. Exemplo:
 
 Os colchetes são utilizados para indicar comentários no meio das linhas. Exemplo:
 
-`Pinte a caixa deste painel superior direito com a cor preta`<mark style="color:blue;">`[cor da borda]`</mark>`e a cor preta`<mark style="color:blue;">`[cor de preenchimento]`</mark>`.`
+`Pinte a caixa usando a cor preta`<mark style="color:blue;">**`[na borda]`**</mark>`e a cor branca.`<mark style="color:blue;">**`[como preenchimento]`**</mark>
