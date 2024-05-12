@@ -8,7 +8,7 @@ As sentenças condicionais são iniciadas com a palavra-chave <mark style="color
 
 &#x20; <mark style="color:blue;">`Faça outra coisa`</mark><mark style="color:red;">`.`</mark>
 
-O bloco de declarações é iniciado após a 1ª vírgula. As demais declarações são separadas por ponto e vírgula, com exceção da última, que deve terminar com um ponto. O aninhamento de sentenças condicionais não é permitido.
+O bloco de declarações é iniciado após a 1ª vírgula. **As demais declarações devem ser separadas por ponto e vírgula, **<mark style="color:red;">**com exceção da última**</mark>**, **_**que deve terminar com um ponto**_**.** <mark style="color:orange;">**O aninhamento de sentenças condicionais não é permitido.**</mark>
 
 ## Laços e iterações
 
