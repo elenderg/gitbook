@@ -22,7 +22,7 @@ A Biblioteca padrão possui rotinas para efetuar operações aritméticas comuns
 
 As words são compostas por 2 bytes e, consequentemente, ocupam 16 bits de espaço em memória.&#x20;
 
-Words são funcionam de forma similar a números inteiros, porém seu intervalo de valores vai de -32768 a +32767.&#x20;
+Words possuem o funcionamento similar ao dos números inteiros, porém seu intervalo de valores vai de -32768 a +32767.&#x20;
 
 Devido às particularidades da arquitetura Windows/Intel x86, os bits em cada um dos bytes da word são armazenados na forma "[little-endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))" (da esquerda para a direita), porém os bytes em si são armazenados de forma inversa (ou seja, na forma "[big endian](https://pt.wikipedia.org/wiki/Extremidade\_\(ordena%C3%A7%C3%A3o\))").
 
