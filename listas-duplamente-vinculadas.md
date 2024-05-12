@@ -15,13 +15,13 @@ O compilador irá, internamente, converter as declarações acima, no código ab
 Um verso é um ponteiro para uma estrutura de versos.
 
 Uma estrutura de versos é uma estrutura com
-  Um próximo verso,
-  Um verso anterior e 
+  Um verso denominado próximo verso,
+  Um verso denominado verso anterior e 
   Uma string.
   
 Uns versos são uma lista com
-  Um primeiro verso e
-  Um último verso.
+  Um verso denominado primeiro verso e
+  Um verso denominado último verso.
 ```
 
 Na Biblioteca padrão existem rotinas diversas para trabalhar com listas.&#x20;
