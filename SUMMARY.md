@@ -25,3 +25,4 @@
   * [API Win32 - GdipImageRotateFlip](exemplos/api-win32-gdipimagerotateflip.md)
   * [Pintando como Claude Monet](exemplos/pintando-como-claude-monet.md)
   * [Exemplo de interface](exemplos/exemplo-de-interface.md)
+  * [Evitando problemas de cintilação (Flickering)](exemplos/evitando-problemas-de-cintilacao-flickering.md)
